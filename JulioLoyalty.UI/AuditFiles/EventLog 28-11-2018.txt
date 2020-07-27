@@ -1,0 +1,930 @@
+DateTime : 28/11/2018 12:10:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=julio&_=1543428606574
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "julio"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:11:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543428606575
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:11:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:11:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543428717753
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:16:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543429007177
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:16:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:16:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429019084
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:18:05 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:18:05 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429085438
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:19:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:19:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429196845
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:22:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:22:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429370992
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:24:41 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:24:41 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429481306
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:25:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:25:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429550246
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:25:58 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:25:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429558879
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:26:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:26:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:27:04 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:27:04 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429624036
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:29:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:29:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429790934
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:29:58 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543429798507
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429806821
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:19 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:19 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429819469
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:29 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543429829634
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:48 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543429848453
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:30:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429856621
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:31:33 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:31:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429893707
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:31:43 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543429903505
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:31:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543429910180
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:31:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:31:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543429917092
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:32:04 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543429924649
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:32:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alej&_=1543429924650
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alej"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:32:13 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=80
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 80
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:32:13 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=80&_=1543429933586
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 80
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:32:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=80
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 80
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:32:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=80&_=1543429977661
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 80
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:33:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=80
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 80
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:33:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=80&_=1543430037135
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 80
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:34:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alej&_=1543430054802
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alej"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:34:18 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543430054803
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:34:29 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:34:29 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=428749&_=1543430069581
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 12:34:36 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543430076514
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:11:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400916269643&_=1543446709241
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "2211400916269643"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:12:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=428749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 428749
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:12:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=jaun&_=1543446737575
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "jaun"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:12:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1543446737576
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:12:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=julio&_=1543446737577
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "julio"
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:12:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:12:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=27&_=1543446765087
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:12:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:16:33 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:16:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:20:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:21:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:22:23 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:22:27 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:23:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:23:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:29:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:30:05 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:30:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:31:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:32:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:33:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:33:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:33:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:34:31 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 28/11/2018 05:35:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=27
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 27
+--------------------------------*End*------------------------------------------

@@ -1,0 +1,387 @@
+﻿@model JulioLoyalty.Entities.Modulos.Llamada.cModeloPrincipal
+@{
+    ViewBag.Title = "Llamadas";
+    var countAvailable = Model.Citas.Count(e => e.status_cita == 1);
+}
+<style>
+    .btn-outline-secondary {
+        border-color: #ced4da !important;
+    }
+
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 0em 1em 1em !important;
+        -webkit-box-shadow: 0px 0px 0px 0px #000;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+
+    legend.scheduler-border {
+        font-size: 1em !important;
+        text-align: left !important;
+        width: auto;
+        padding: 0 10px;
+        border-bottom: none;
+    }
+
+    .ellipsis {
+        display: block;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .list-group-search {
+        padding: 0.5rem 0.25rem;
+    }
+</style>
+@Styles.Render(
+    "~/Content/plugins/jquery-loading/css/jquery.loading.min.css",
+    "~/Content/plugins/gijgo/css/gijgo.min.css"
+)
+<div class="container">
+    <br>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link disabled" data-toggle="tab" href="#search">Buscar registro</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" data-toggle="tab" href="#nav-meeting">Agenda de citas&nbsp;<span class="badge badge-info" id="availableAppointmentsCounter" data-counter="@countAvailable">@countAvailable.ToString()</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#menu1">Datos del cliente</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" data-toggle="tab" href="#nav-log">Histórico</a>
+        </li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <!-- Tab Buscar participantes -->
+        <div id="search" class="tab-pane fade container">
+            <br>
+            <div id="divSearch">
+                @{
+                    var modelSearch = new JulioLoyalty.Entities.Modulos.Llamada.Models.FormSearch();
+                    modelSearch.Campaigns = Model.Campañas;
+                    Html.RenderPartial("Forms/_FormSearch", modelSearch);
+                }
+            </div>
+        </div>
+        <!-- Tab Agenda de citas -->
+        <div id="nav-meeting" class="tab-pane fade container">
+            <br />
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                <h5 class="alert-heading">¡Registros pendientes!</h5>
+                <p>
+                    Todos los contactos que aparecen aquí pueden ser utilizados.
+                </p>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="row">
+                @{
+                    foreach (var item in Model.Citas)
+                    {
+                        if (item.status_cita == 1)
+                        {
+                            var _class = item.fecha_agendada <= DateTime.Now ? "border-danger" : "border-success";
+                            <div class="col-lg-4 card-available">
+                                @using (Html.BeginForm("Index", "Customer", FormMethod.Post))
+                                {
+                                    <div class="card @_class">
+                                        <input type="hidden" name="id" value="@item.participante_camp_id" />
+                                        <div class="card-body">
+                                            <h6 class="card-title">@item.Nombre</h6>
+                                            <div style="height:3em;">
+                                                <p class="ellipsis card-subtitle text-muted">@Html.Raw(item.comentarios)</p>
+                                            </div>
+                                            <fieldset class="scheduler-border">
+                                                <legend class="scheduler-border">Tiempo restante</legend>
+                                                <div class="text-danger text-center" id="getting-started_@item.Id" data-appointmentid="@item.Id" data-remainingtime="@item.fecha_agendada.ToString("yyyy/MM/dd HH:mm:ss")"></div>
+                                            </fieldset>
+                                            <br />
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-primary">Contactar</button>
+                                            </div>
+                                            <br />
+                                            <small class="text-muted">Fecha cita:</small><br />
+                                            <small class="text-muted">@Html.Raw(item.fecha_agendada.ToString("dddd, dd MMMM yyyy hh:mm tt"))</small>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    }
+                }
+            </div>
+        </div>
+        <!-- Tab Datos del cliente -->
+        <div id="menu1" class="tab-pane container active">
+            <br />
+            <div class="row">
+                @if (Model.Nombre == null)
+                {
+                    <div class="col-lg-12">
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>Advertencia!</strong> No encontramos registros disponibles (utiliza la pestaña de búsqueda)...
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                }
+                <div class="col-lg-12">
+                    @using (Html.BeginForm("Index", "Customer", FormMethod.Post, new { @class = "form-row align-items-center", role = "form", autocomplete = "off", name = "form_main" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="0" />
+                        <div class="col-lg-6 my-1">
+                            @Html.DropDownListFor(m => m.campaña_id, new SelectList(Model.Campañas, "id", "descripcion"), "Todas las campañas", new { @class = "form-control"@*, @onchange = "cargaScript(this.id);"*@ })
+                            @Html.ValidationMessageFor(m => m.campaña_id, "", new { @class = "text-danger text-left small" })
+                        </div>
+                        <div class="col-auto my-1 text-center">
+                            <button type="submit" class="btn btn-primary">Consultar</button>
+                        </div>
+                        <div class="col-lg-1 text-center" style="padding-top:9px;">
+                            <label class="badge badge-info" style="font-size:100%;">
+                                @Html.Raw(Model.Count_Campania_Llamadas.total_llamadas_cerradas + " de " + Model.Count_Campania_Llamadas.total_llamadas)
+                            </label>
+                        </div>
+                    }
+                </div>
+                <div class="col-sm-7">
+                    <div class="card">
+                        <div class="card-body">
+                            <h7 class="card-title">SCRIPT</h7>
+                            <div class="list-group">
+                                <a href="avascript:void();" class="list-group-item list-group-item-action list-group-item-light">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-1">@Html.Raw(Model.Nombre)</h6>
+                                        <small>@Model.Telefonos.Count() Teléfono(s)</small>
+                                    </div>
+                                </a>
+                                @foreach (var tel in Model.Telefonos)
+                                {
+                                    <a href="javascript:void();" class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h6 class="mb-1">@Html.Raw(tel.Telefono)</h6>
+                                            <small class="text-muted">@Html.Raw(tel.Tipo)</small>
+                                        </div>
+                                    </a>
+                                }
+                            </div>
+                            <br />
+                            <p class="card-text text-justify" id="pScript">
+                                @Html.Raw(Model.Script)                            
+                            </p>
+                        </div>
+                        <div class="form-group text-center">
+                            @*<a href="@Url.Action("Index", "Customer")" class="btn btn-primary">Actualizar página</a>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"></h5>
+                            <div class="divContent" id="divLog">
+                                @{
+                                    var model = new JulioLoyalty.Entities.Modulos.Llamada.Models.FormLog();
+                                    model.LogId = Model.Id;
+                                    model.Nombre = Model.Nombre;
+                                    model.Status = Model.Status;
+                                    model.Telefonos = Model.Telefonos;
+                                    model.Comments = model.Telefonos.Count() > 0 ? model.Telefonos[0].Comentario : "";
+                                    Html.RenderPartial("Forms/_FormLog", model);
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tab histórico -->
+        <div id="nav-log" class="tab-pane fade container">
+            <br>
+            <div id="divSearchLog">
+                @{
+                    var modelSearchLog = new JulioLoyalty.Entities.Modulos.Llamada.Models.FormSearchLog();
+                    modelSearchLog.Campaigns = Model.Campañas;
+                    Html.RenderPartial("Forms/_FormSearchLog", modelSearchLog);
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Modals -->
+    <div class="modal fade" id="modal-meeting" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content modal-schedule">
+                <div id="divSchedule">
+                    @{
+                        var modelSchedule = new JulioLoyalty.Entities.Modulos.Llamada.Models.FormSchedule();
+                        modelSchedule.Nombre = Model.Nombre;
+                        modelSchedule.ScheduleId = Model.Id;
+                        modelSchedule.Comments = model.Telefonos.Count() > 0 ? model.Telefonos[0].Comentario : "";
+                        Html.RenderPartial("Forms/_FormSchedule", modelSchedule);
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts {
+    @Scripts.Render(
+        "~/Content/plugins/jQuery-Countdown/jquery.countdown.min.js",
+        "~/Content/plugins/jquery-loading/js/jquery.loading.min.js",
+        "~/Scripts/jquery.unobtrusive-ajax.min.js",
+        "~/Content/plugins/gijgo/js/gijgo.min.js",
+        "~/Content/plugins/gijgo/js/messages/messages.es-es.min.js"
+    )
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    <script>
+        function getAppointments() {
+            $.each($('div[id^="getting-started_"]'), function (index, html) {
+                $(html).countdown($(html).data('remainingtime'), function (event) {
+                    $(this).html(event.strftime('%D días %H:%M:%S'));
+                }).on('finish.countdown', function () {
+                    const currentAppointmentDOMobject = $(this).parents('.card-available');
+                    currentAppointmentDOMobject.remove();
+                    addAppointmentsCounter(-1);
+                });
+            });
+        }
+        function addAppointmentsCounter(value) {
+            var counter = $('#availableAppointmentsCounter');
+            var currentAppointments = parseInt(counter.data('counter'));
+            currentAppointments += value;
+            counter.data('counter', currentAppointments);
+            //if (currentAppointments == 1)
+            //    $('#availableAppointmentsCounter')
+            //        .transition('scale')
+            //        .transition({ animation: 'tada', duration: 1500 });
+
+            //if (currentAppointments > 1)
+            //    $('#availableAppointmentsCounter')
+            //        .transition({ animation: 'tada', duration: 1500 });
+
+            //if (currentAppointments <= 0) {
+            //    $('#availableAppointmentsCounter').removeClass('visible');
+            //    $('#availableAppointmentsCounter').fadeOut();
+            //}
+            counter.html(currentAppointments);
+        }
+        $(document).ready(function () {
+            getAppointments();
+            initDatepicker();
+            initBtnModal();
+            $('.nav-link').click(function () {
+                var telId = $('#TelefonoId').val();
+                var staId = $('#StatusId').val();
+                if (telId === "" && staId === "") {
+                    $('.nav-link').removeClass('disabled');
+                    return;
+                }
+                if ($(this).is('.disabled')) {
+                    swal({
+                        title: "¿Estás seguro de eso?",
+                        text: "Se perderan los datos que has capturado",
+                        icon: "warning",
+                        buttons: true,
+                        dangerMode: true,
+                        buttons: ["Cancelar", "Aceptar"],
+                    }).then(function (willDelete) {
+                        if (willDelete) {
+                            $('.nav-link').removeClass('disabled');
+                        }
+                    });
+                }
+            });
+        });
+        function onComplete() {
+            $(':loading').loading('stop');
+        }
+        function onBeginAjax(e) {
+            const update = $(e).attr("data-ajax-update");
+            if (update !== undefined) {
+                $(update).loading({
+                    message: 'Working...',
+                    zIndex: 9999
+                });
+            }
+        }
+        function onCompleteAjax(e) {
+            const update = $(e).attr("data-ajax-update");
+            if (update !== undefined) {
+                $(update).loading('stop');
+            }
+        }
+        function onSuccessAjax_reload(e) {
+            const update = $(e).attr("data-ajax-update");
+            if (update !== undefined) {
+                var Ok = $(update).find('span[data-valmsg-for="OK"]').text();
+                if (Ok !== "") {
+                    onLoading(Ok);
+                }
+            }
+        }
+        function onLoading(message) {
+            $('body').loading({
+                message: "Loading...",
+                zIndex: 9999,
+                stoppable: false
+            });
+            document.location.href = window.location.origin + "/customer";
+        }
+        function initBtnModal() {
+            $("#btn-meeting").click(function (e) {
+                const selValue = $('#TelefonoId').val();
+                if (selValue !== "") {
+                    $('#PhoneNumberId').val(selValue);
+                    $("#modal-meeting").modal({
+                        backdrop: 'static',
+                        keyboard: false
+                    }).on('hide.bs.modal', function () {
+                    });
+                } else {
+                    swal({
+                        title: "Agenda de cita",
+                        text: "¡Selecciona un número de teléfono!",
+                        icon: "info",
+                        button: "Aceptar",
+                        allowOutsideClick: false
+                    });
+                }
+            });
+        }
+        function initDatepicker() {
+            var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+            $('.datepicker').datepicker({
+                footer: true,
+                modal: true,
+                format: 'dd/mm/yyyy',
+                locale: 'es-es',
+                uiLibrary: 'bootstrap4',
+                minDate: today
+            });
+            $('.datetimepicker').timepicker({
+                format: 'HH:MM',
+                locale: 'es-es',
+                uiLibrary: 'bootstrap4',
+            });
+        }
+        @*function cargaScript(ddlCampain) {
+            var id = $("#" + ddlCampain + " option:selected").val();
+            var lstCampanias = @Html.Raw(Json.Encode(Model.Campañas));
+            $.each(lstCampanias, function(index, item) {
+                if (parseInt(id) === parseInt(item.id)) {
+                    $('#pScript').text(item.script);
+                    return;
+                }
+            });
+        }*@
+    </script>
+}

@@ -1,0 +1,157 @@
+﻿
+@{
+    ViewBag.Title = "Administrar menú";
+}
+
+<style>
+    /* The container */
+    .container-box {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        /*font-size: 22px;*/
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+        /* Hide the browser's default checkbox */
+        .container-box input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container-box:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container-box input:checked ~ .checkmark {
+        background-color: #2196F3;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container-box input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container-box .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .alert.alert-info {
+        z-index: 9031;
+    }
+</style>
+
+<div class="table-responsive">
+    <table id="tablemenu" class="table table-bordered table-sm table-hover w-100">
+        <thead>
+            <tr>
+                <th>Menu</th>
+                <th>Funciones</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<div class="modal fade editm" tabindex="-1" role="dialog" id="edit">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Agregar / Editar (SubMenú)</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="formAction">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input id="Name" class="form-control" type="text" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>Nombre del controlador</label>
+                                <input id="Controller" class="form-control" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>Nombre de la acción</label>
+                                <input id="ActionResult" class="form-control" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="container-box">
+                                    Activo
+                                    <input type="checkbox" class="checkbox" checked="checked" name="active">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" style="text-align:right;">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i> Cancelar</button>
+                            <button id="btnUpdateMenu" type="button" class="btn btn-primary"><i class="far fa-check-square"></i> Guardar / Actualizar</button>
+                        </div>
+                    </div>
+                </form>
+                <br />
+                <div class="table-responsive">
+                    <table id="table_funcion" class="table table-bordered table-sm table-hover w-100">
+                        <thead>
+                            <tr>
+                                <th>Función</th>
+                                <th>Controlador</th>
+                                <th>Acción</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/dataTables")
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    @Scripts.Render("~/Scripts/Services/Menu.min.js")
+}

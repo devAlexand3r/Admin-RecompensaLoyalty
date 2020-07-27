@@ -1,0 +1,48 @@
+DateTime : 03/04/2019 10:28:10 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1554308889871
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 03/04/2019 12:18:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1554315524885
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 03/04/2019 12:19:27 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1554315567234
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 03/04/2019 12:31:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1554316260806
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------

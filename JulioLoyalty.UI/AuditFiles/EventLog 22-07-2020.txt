@@ -1,0 +1,204 @@
+DateTime : 22/07/2020 10:49:22 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595432950163
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 10:50:28 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595433009576
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 10:53:10 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595433179429
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 10:53:57 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595433215251
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 10:54:18 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595433257900
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:26:59 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595435219167
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:29:04 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595435343839
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:30:13 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=5&_=1595435343840
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "5"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:30:22 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=16
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:30:22 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=16&_=1595435421762
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:30:44 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=16
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:30:44 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=16&_=1595435444319
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:33:40 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=16
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:33:55 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=16&_=1595435620225
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:44:51 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=5&_=1595436290573
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "5"
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:45:13 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=16
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 22/07/2020 11:45:21 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=16&_=1595436313010
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------

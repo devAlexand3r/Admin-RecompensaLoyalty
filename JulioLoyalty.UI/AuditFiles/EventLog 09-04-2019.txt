@@ -1,0 +1,24 @@
+DateTime : 09/04/2019 05:21:10 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1554848469824
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 09/04/2019 05:29:47 p. m.
+
+UserId   : e3003104-addb-4916-8b73-27e8ab7090b7
+UserName : 2211400916403689
+Page Url : /api/Customer/Find?parameter=%3F&_=1554848986033
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome64, Version: 64.0, MVersion: 64
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------

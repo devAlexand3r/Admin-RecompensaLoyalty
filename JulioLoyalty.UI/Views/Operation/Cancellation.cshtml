@@ -1,0 +1,293 @@
+﻿
+@{
+    ViewBag.Title = "Baja de tarjeta";
+    var unit = new JulioLoyalty.Business.MCatalogos.ConsultaCatalagos();
+}
+
+@Styles.Render("~/Content/bootstrapSelect/bootstrap-select.min.css")
+
+<div class="col-md-12">
+    <div class="card border-info mx-auto col-md-4">
+        <div class="card-body">
+            <div class="text-center">
+                <h3><i class="far fa-calendar-times fa-3x"></i></h3>
+                <h3 class="text-center">Baja de tarjeta</h3>
+                <p class="text-info">@ViewBag.Message</p>
+            </div>
+            <div class="panel-body">
+                <form id="form_activacion" role="form" autocomplete="off" class="form">
+                    <label>No. Membresía</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-credit-card"></i></span>
+                        </div>
+                        <input id="NoTarjeta" name="NoTarjeta" class="form-control" type="text" onkeypress="return isNumber(event)" maxlength="16">
+                    </div>
+                    <div class="dataFieldError hidden" data-valmsg-for="NoTarjeta">El número de membresía no es correcto</div>
+
+                    <div class="form-group required">
+                        <label class="control-label">Distribuidor</label>
+                        <select class="form-control selectpicker" id="selNoTienda" name="selNoTienda">
+                            @{
+                                var distribuidores = unit.Distribuidores(User.Identity.Name);
+                                foreach (var distribuidor in distribuidores)
+                                {
+                                    <option value="@distribuidor.id">@distribuidor.descripcion</option>
+                                }
+                            }
+                        </select>
+                        <div class="dataFieldError hidden" data-valmsg-for="selNoTienda">Distribuidor es requerido</div>
+                    </div>
+
+                    <div class="form-group required">
+                        <label class="control-label">Status participante</label>
+                        <select class="form-control selectpicker" id="selStatus" name="selStatus">
+                            @{
+                                var status = unit.StatusParticipante();
+                                foreach (var statu in status)
+                                {
+                                    <option value="@statu.id">@statu.descripcion</option>
+                                }
+                            }
+                        </select>
+                        <div class="dataFieldError hidden" data-valmsg-for="selStatus">Status participante es requerido</div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <input name="recover-submit" class="btn btn-primary btn-block btn-send" value="Aceptar" type="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/Scripts/sweetalert.min.js");
+}
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+    $(function () { })
+
+    $(document).ready(function () {
+
+        var validate = {
+            init: function (obj) {
+                $("div[data-valmsg-for=" + obj.name + "]").addClass('hidden');
+            },
+            isvalid: function (obj) {
+                $("[name=" + obj.name + "]").removeClass('is-invalid').addClass('is-valid');
+                $("div[data-valmsg-for=" + obj.name + "]").addClass('hidden');
+            },
+            isnotvalid: function (obj) {
+                $("div[data-valmsg-for=" + obj.name + "]").removeClass('hidden');
+                $("[name=" + obj.name + "]").addClass('is-invalid');
+            },
+            email: function (obj) {
+                @*this.init(obj);
+                var vregexNaix = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                if (!vregexNaix.test(obj.value) || obj.value.length < 5) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;*@
+            },
+            card: function (obj, min, max) {
+                let cmin = min;
+                let cmax;
+                if (isNaN(min)) { cmin = 1; }
+                if (isNaN(max)) { cmax = 5; }
+                if (obj.value.length < cmin || obj.value.length > cmax) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;
+            },
+            date: function (obj) {
+                this.init(obj);
+                var vregexNaix = /^(0[1-9]|[1-2]\d|3[01])(\/)(0[1-9]|1[012])\2(\d{4})$/;
+                if (!vregexNaix.test(obj.value) || obj.value.length > 10) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;
+            },
+            birthdate: function (obj) {
+                this.init(obj);
+                var vregexNaix = /^(0[1-9]|[1-2]\d|3[01])(\/)(0[1-9]|1[012])\2(\d{4})$/;
+                if (!vregexNaix.test(obj.value) || obj.value.length > 10) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;
+            },
+            options: function (obj) {
+                this.init(obj);
+                if (obj.value.length < 1) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;
+            },
+            text: function (obj, min, max) {
+                let cmin, cmax;
+                if (isNaN(min)) { cmin = 1; }
+                if (isNaN(max)) { cmax = 1000000; }
+                if (obj.value.length < cmin || obj.value.length > cmax) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;
+            },
+            telephone: function (obj, min, max) {
+                let cmin, cmax;
+                if (isNaN(min)) { cmin = 7; }
+                if (isNaN(max)) { cmax = 10; }
+                if (obj.value.length < cmin || obj.value.length > cmax) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;
+            },
+            zipcode: function (obj, max) {
+                let cmin = 1;
+                let cmax;
+                if (isNaN(max)) { cmax = 5; }
+                if (obj.value.length < 1 || obj.value.length > cmax) {
+                    this.isnotvalid(obj);
+                    return false;
+                }
+                this.isvalid(obj);
+                return true;
+            },
+        }
+
+        // init selectpicker
+        $('.selectpicker').selectpicker({
+            language: 'es',
+            title: 'No hay selección'
+        }).selectpicker('refresh');
+
+
+        var principal = {
+            validar: {
+                tarjeta: false,
+                distribuidor: false,
+                status: false
+            },
+            callbackCancelCard: function (callBack) {
+                var result = JSON.parse(callBack);
+                if (result.length > 0) {
+                    if (result[0].errorId === 0) {
+                        swal({
+                            title: 'ÉXITO',
+                            text: result[0].mensaje,
+                            icon: "success",
+                            button: "Aceptar",
+                            closeOnClickOutside: false
+                        });
+                    } else {
+                        swal({
+                            title: 'Advertencia',
+                            text: result[0].mensaje,
+                            icon: "warning",
+                            button: "Aceptar",
+                            closeOnClickOutside: false
+                        });
+                    }
+                }
+            },
+            ajaxRequest: function (url, type, data, callBack) {
+                $.ajax({
+                    url: url,
+                    type: type,
+                    async: false,
+                    data: data,
+                    contentType: "application/json",
+                    dataType: "json",
+                    cache: false,
+                    async: false,
+                    beforeSend: function () {
+                    },
+                }).done(callBack).fail(function (data, textStatus, xhr) {
+                    console.log(data, textStatus, xhr);
+                });
+            }
+        };
+
+        // web controls
+        var inpTarjeta = $('#NoTarjeta');
+        var selDistribuidor = $('#selNoTienda');
+        var selStatus = $('#selStatus');
+        var btnSend = $('.btn-send');
+
+        // events
+        inpTarjeta.change(function () {
+            principal.validar.tarjeta = validate.card(this, 16, 16);
+        });
+        selDistribuidor.change(function () {
+            principal.validar.distribuidor = validate.options(this);
+        });
+        selStatus.change(function () {
+            principal.validar.status = validate.options(this);
+        });
+
+        btnSend.click(function () {
+            inpTarjeta.trigger('change');
+            selDistribuidor.trigger('change');
+            selStatus.trigger('change');
+
+            var array = [];
+            $.each(principal.validar, function (index, isvalid) {
+                if (isvalid === false)
+                    array.push(1);
+            });
+
+            if (array.length > 0) {
+                console.log("Le sugerimos llenar la información restante para poder atender su solicitud...");
+                return;
+            }
+            //It all correct
+            var _data = {
+                tarjeta: inpTarjeta.val().trim(),
+                distribuidor_id: selDistribuidor.val(),
+                status_participante_id: selStatus.val()
+            };
+
+            swal({
+                title: "¿Estás seguro de eso?",
+                text: "¡Una vez realizado la baja no podras recuperarla!",
+                icon: "warning",                             
+                buttons: [
+                    "Cancelar",
+                    "Aceptar"
+                ],
+                dangerMode: true,
+            }).then(function (isConfirm) {
+                if (isConfirm) {
+                    principal.ajaxRequest((appBaseUrl + "api/ticket/cancel"), 'POST', JSON.stringify(_data), principal.callbackCancelCard);
+                }
+            });
+        });
+    });
+
+    function isNumber(evt) {
+        evt = (evt) ? evt : window.event;
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            return false;
+        }
+        return true;
+    }
+
+</script>

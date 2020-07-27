@@ -1,0 +1,96 @@
+DateTime : 17/01/2019 04:10:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1547763034302
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 17/01/2019 04:10:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alex&_=1547763034303
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "alex"
+--------------------------------*End*------------------------------------------
+DateTime : 17/01/2019 04:10:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 17/01/2019 04:10:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1547763047373
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 17/01/2019 04:15:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 17/01/2019 04:15:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1547763347131
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 17/01/2019 04:16:04 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 17/01/2019 04:16:04 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1547763364015
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------

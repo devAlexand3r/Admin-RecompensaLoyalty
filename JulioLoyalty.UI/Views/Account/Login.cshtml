@@ -1,0 +1,72 @@
+﻿@model JulioLoyalty.UI.Models.LoginModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <!-- Bootstrap -->
+    <link href="~/Content/bootstrap-4.0.0.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Estilos -->
+    <link href="~/Content/estilosLogin.css" rel="stylesheet">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+</head>
+<body class="text-center">
+    <div id="logo"><img src="~/Content/images/logo.svg" width="350" height="132" class="img-fluid" alt="Placeholder image"></div>
+    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-signin", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h1 class="h5 my-3 font-weight-normal">Bienvenido</h1>
+        <label for="UserName" class="sr-only">Usuario</label>
+        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @placeholder = "Usuario", @autofocus = "" })
+        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger text-left small" })
+        <label for="Password" class="sr-only">Contraseña</label>
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Contraseña" })
+        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger text-left small" })
+        <div class="checkbox mb-3">
+            <label>
+                @Html.CheckBoxFor(m => m.RememberMe) Recordarme
+            </label>
+            <div>
+                <a href="@Url.Action("Recover","Account")">Olvidé mi contraseña?</a>
+            </div>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+    }
+    <nav class="navbar fixed-bottom navbar-expand-lg">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item mx-2">
+                <a class="nav-link" href="#">@*Aviso de Privacidad*@</a>
+            </li>
+            <li class="nav-item mx-2">
+                <a class="nav-link" href="#">@*Términos y Condiciones*@</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap-4.0.0.js"></script>
+
+    <script type="text/javascript">
+        $('.btn-primary.btn-block').click(function (e)
+        {
+            localStorage.removeItem('nombre');
+            localStorage.removeItem('objUser');
+            localStorage.removeItem('name');
+            localStorage.removeItem('menu');
+            localStorage.removeItem('txtBusqueda');
+            console.log('remove cookies-->');
+        });
+    </script>
+</body>
+</html>

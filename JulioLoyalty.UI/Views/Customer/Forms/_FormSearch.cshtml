@@ -1,0 +1,89 @@
+﻿@model JulioLoyalty.Entities.Modulos.Llamada.Models.FormSearch
+
+<div>
+    @{
+        using (Ajax.BeginForm("SearchParticipant", new { Controller = "Customer" }, new AjaxOptions
+        {
+            HttpMethod = "POST",
+            UpdateTargetId = "divSearch",
+            OnBegin = "onBeginAjax(this)",
+            OnComplete = "onCompleteAjax(this)"
+        }, new { @class = "form-row align-items-center", role = "form", autocomplete = "off", name = "form_search" }))
+        {
+            @Html.AntiForgeryToken()
+            <div class="col-lg-3 my-1">
+                @Html.TextBoxFor(m => m.Parameters, new { @class = "form-control", @placeholder = "..." })
+                @Html.ValidationMessageFor(m => m.Parameters, "", new { @class = "text-danger text-left small" })
+            </div>
+            <div class="col-lg-3 my-1">
+                @Html.DropDownListFor(m => m.Campaign_id, new SelectList(Model.Campaigns, "id", "descripcion"), "Todas las campañas", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Campaign_id, "", new { @class = "text-danger text-left small" })
+            </div>
+            <div class="col-auto my-1 text-center">
+                <button type="submit" class="btn btn-primary">Consultar</button>
+            </div>
+            <div class="col-lg-12">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            </div>
+        }
+
+        <div class="row">
+            @if (Model.SearchResult != null)
+            {
+                var total = Model.SearchResult.Count() > 0 ? Model.SearchResult[0].resultado_total : 0;
+                <diV class="col-lg-12">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        Mostrando @Model.SearchResult.Count() de <strong>@string.Format("{0:#,0}", total)</strong> resultados...
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </diV>
+
+                foreach (var item in Model.SearchResult)
+                {
+                    <div class="col-lg-3">
+                        @using (Html.BeginForm("Index", "Customer", FormMethod.Post))
+                        {
+                            <div class="card">
+                                <input type="hidden" name="id" value="@item.participante_camp_id" />
+                                <div class="card-body">
+                                    <div style="height:35px;">
+                                        <h6 class="card-title">@item.nombre_completo</h6>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item list-group-search">
+                                            <small class="text-muted">Cita: @item.fecha_agendada</small>
+                                        </li>
+                                        <li class="list-group-item list-group-search">
+                                            <small class="text-muted">Intentos: @item.contador</small>
+                                        </li>
+                                        <li class="list-group-item list-group-search">
+                                            <small class="text-muted">@item.nombre_campaña</small>
+                                        </li>
+                                        <li class="list-group-item list-group-search">
+                                            <div style="height:3em;">
+                                                <small class="ellipsis text-muted">@item.comentarios</small>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <br />
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-secondary">Contactar</button>
+                                    </div>
+                                </div>
+                                <div class="card-footer" style="height:4.5em">
+                                    @if (item.fecha_ultima != null)
+                                    {
+                                        <small class="text-muted">Fecha selección</small><br />
+                                        <small class="text-muted"> @Html.Raw(item.fecha_ultima.Value.ToString("dddd, dd MMMM yyyy hh:mm tt"))</small>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+        </div>
+    }
+</div>

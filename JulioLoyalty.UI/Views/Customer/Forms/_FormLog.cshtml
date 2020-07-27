@@ -1,0 +1,64 @@
+﻿@model JulioLoyalty.Entities.Modulos.Llamada.Models.FormLog
+<div>
+    @using (Ajax.BeginForm("SaveChanges", new { Controller = "Customer" }, new AjaxOptions
+    {
+        HttpMethod = "POST",
+        UpdateTargetId = "divLog",
+        OnSuccess = "onSuccessAjax_reload(this)",
+        OnBegin = "onBeginAjax(this)",
+        OnComplete = "onCompleteAjax(this)"
+    }, new { @class = "form-horizontal", role = "form", autocomplete = "off", name = "form_log" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.LogId);
+        <div class="form-group">
+            <label>Nombre completo</label>
+            @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", @placeholder = "...", @readonly = true })
+            @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger text-left small" })
+        </div>
+        <div class="form-group">
+            <label>Teléfonos</label>
+            @Html.DropDownListFor(m => m.TelefonoId, new SelectList(Model.Telefonos, "Id", "Telefono_Text"), "Seleccione una opción", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.TelefonoId, "", new { @class = "text-danger text-left small" })
+        </div>
+        <div class="form-group">
+            <label>Lista de status</label>
+            @Html.DropDownListFor(m => m.StatusId, new SelectList(Model.Status, "id", "descripcion"), "Seleccione una opción", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.StatusId, "", new { @class = "text-danger text-left small" })
+        </div>
+        <div class="form-group">
+            <label>Comentarios</label>
+            @Html.TextAreaFor(m => m.Comments, new { @class = "form-control", @placeholder = "...", @rows = 4 })
+            @Html.ValidationMessageFor(m => m.Comments, "", new { @class = "text-danger text-left small" })
+        </div>
+        <div class="form-group">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group text-center">
+            @Html.ValidationMessage("OK", new { @class = "text-success", @style = "font-size:1.1em;" })
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">
+                Guardar
+            </button>
+            <button type="button" id="btn-meeting" class="btn btn-primary">
+                Agendar
+            </button>
+        </div>        
+    }
+</div>
+@section scripts {
+    @Scripts.Render(
+        "~/Content/plugins/jQuery-Countdown/jquery.countdown.min.js",
+        "~/Content/plugins/jquery-loading/js/jquery.loading.min.js",
+        "~/Scripts/jquery.unobtrusive-ajax.min.js",
+        "~/Content/plugins/gijgo/js/gijgo.min.js",
+        "~/Content/plugins/gijgo/js/messages/messages.es-es.min.js"
+    )
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    <script>
+        $(document).ready(function () {
+            initBtnModal();
+        });
+    </script>
+}

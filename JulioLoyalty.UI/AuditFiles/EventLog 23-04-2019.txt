@@ -1,0 +1,948 @@
+DateTime : 23/04/2019 09:35:53 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556030153495
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 10:06:01 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556031960654
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:32:08 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556037127829
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:46:08 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556037968372
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:52:49 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038368846
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:53:02 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038382862
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:54:16 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038456374
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:54:47 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038486963
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:55:24 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038524722
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:55:30 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038530680
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:56:59 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038619893
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:57:37 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038657881
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 11:59:59 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038799796
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:01:10 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038870539
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:02:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556038937179
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:06:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039184271
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:13:36 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039616339
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:13:52 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556039616340
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:14:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039674336
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:14:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556039674337
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:14:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039674338
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:15:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556039674339
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:15:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039747788
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:15:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556039747789
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:18:12 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039884253
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:18:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=ChangePasswordv2&_=1556039884254
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "ChangePasswordv2"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:18:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039884255
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:18:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=ale&_=1556039884256
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:18:46 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=2211400915848876&_=1556039884257
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "2211400915848876"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:18:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556039884258
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:19:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556039997138
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:20:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040047201
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:20:58 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040047202
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:21:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040047203
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:26:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040361039
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:26:48 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040407892
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:26:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040407893
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:28:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040516870
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:29:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040557052
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:29:19 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040557053
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:30:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040600864
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:30:11 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040600865
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:31:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040676904
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:31:20 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040676905
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:33:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040829553
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:34:02 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040829554
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:34:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040877128
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:34:41 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556040877129
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:36:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=a&_=1556040877130
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "a"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:36:40 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556040877131
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:39:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041146052
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:39:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=7676434344993621&_=1556041146053
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "7676434344993621"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:39:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=7676434344993621&_=1556041146054
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "7676434344993621"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:39:22 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556041146055
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:39:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041146056
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:39:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=2o&_=1556041146057
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "2o"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:40:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=20&_=1556041146058
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "20"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:40:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041146059
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:41:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=26%2F07%2F1993&_=1556041146060
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "26/07/1993"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:41:38 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=26%2F07%2F1993&_=1556041146061
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "26/07/1993"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:41:43 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556041146062
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:42:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041378828
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:43:26 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041406321
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:43:30 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556041406322
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:44:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556041406323
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:45:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041535895
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:50:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041833949
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:50:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1&_=1556041854822
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:51:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=&_=1556041869605
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : null
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:51:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=1489995382257719&_=1556041869606
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 12:56:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/service/getsocias?tarjeta=&_=1556042205212
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : tarjeta
+Value    : null
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 04:28:38 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556054918393
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 04:32:10 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556055129721
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 04:39:02 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556055542164
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 04:50:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556056208021
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 04:58:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556056724839
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 05:14:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556057699002
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 05:15:31 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556057731163
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 23/04/2019 05:37:11 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1556059031080
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------

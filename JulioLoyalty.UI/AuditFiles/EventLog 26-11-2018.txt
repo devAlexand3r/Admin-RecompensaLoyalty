@@ -1,0 +1,36 @@
+DateTime : 26/11/2018 04:49:38 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543272577909
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 26/11/2018 04:51:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 26/11/2018 04:51:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1543272704510
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------

@@ -1,0 +1,24 @@
+DateTime : 18/10/2019 04:02:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1571432534182
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox69, Version: 69.0, MVersion: 69
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 18/10/2019 04:45:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1571435158939
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox69, Version: 69.0, MVersion: 69
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------

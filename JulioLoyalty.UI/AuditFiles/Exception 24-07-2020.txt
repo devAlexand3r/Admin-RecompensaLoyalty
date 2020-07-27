@@ -1,0 +1,64 @@
+DateTime: 24/07/2020 06:25:08 p. m.
+
+UserId  : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName: desarrollo
+Line No.: 
+Exception Message      : No se encontró el procedimiento almacenado 'dbo.usp_consultar_transaccion'.
+InnerException Message : 
+Exception Name  : SqlException
+Exception Type  : System.Data.SqlClient.SqlException
+Page Url: /api/Customer/ConsultaTransaccion?id=16
+Host IP : ::1
+Browser : Firefox
+Details : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime: 24/07/2020 06:25:11 p. m.
+
+UserId  : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName: desarrollo
+Line No.: 
+Exception Message      : 
+InnerException Message : El nombre de columna 'ocupacion_id' no es válido.
+Exception Name  : EntityCommandExecutionException
+Exception Type  : System.Data.Entity.Core.EntityCommandExecutionException
+Page Url: /api/Customer/FindByUser?id=16&_=1595633108450
+Host IP : ::1
+Browser : Firefox
+Details : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime: 24/07/2020 06:27:04 p. m.
+
+UserId  : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName: desarrollo
+Line No.: 
+Exception Message      : No se encontró el procedimiento almacenado 'dbo.usp_consultar_transaccion'.
+InnerException Message : 
+Exception Name  : SqlException
+Exception Type  : System.Data.SqlClient.SqlException
+Page Url: /api/Customer/ConsultaTransaccion?id=16
+Host IP : ::1
+Browser : Firefox
+Details : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime: 24/07/2020 06:27:07 p. m.
+
+UserId  : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName: desarrollo
+Line No.: 
+Exception Message      : 
+InnerException Message : El nombre de columna 'ocupacion_id' no es válido.
+Exception Name  : EntityCommandExecutionException
+Exception Type  : System.Data.Entity.Core.EntityCommandExecutionException
+Page Url: /api/Customer/FindByUser?id=16&_=1595633206217
+Host IP : ::1
+Browser : Firefox
+Details : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------

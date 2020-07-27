@@ -1,0 +1,120 @@
+DateTime : 24/07/2020 06:24:53 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1595633071390
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:24:58 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=5&_=1595633071391
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "5"
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:25:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=16
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:25:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=16&_=1595633108450
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:26:30 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=5&_=1595633189983
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "5"
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:26:46 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=16
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:26:46 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=16&_=1595633206217
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:28:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=5&_=1595633323659
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : parameter
+Value    : "5"
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:29:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=16
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------
+DateTime : 24/07/2020 06:29:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=16&_=1595633343326
+Host IP  : ::1
+Browser  : Firefox
+Details  : Browser: Firefox, Type: Firefox78, Version: 78.0, MVersion: 78
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Key      : id
+Value    : 16
+--------------------------------*End*------------------------------------------

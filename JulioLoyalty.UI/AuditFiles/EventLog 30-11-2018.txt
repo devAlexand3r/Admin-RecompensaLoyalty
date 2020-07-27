@@ -1,0 +1,956 @@
+DateTime : 30/11/2018 11:00:38 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=julio&_=1543597238039
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "julio"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:02:55 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:05:32 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"devAlexander","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:05:41 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"devAlexander","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:06:07 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_01","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:06:16 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_01","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:06:40 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_01","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:06:46 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_02","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:07:23 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_02","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:07:29 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_03","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:08:08 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_04","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":"38"}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:10:44 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_05","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":"38"}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:12:45 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"Gerente_06","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":"38"}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:19:04 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Username":"devAlexander07@gmail.com","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:20:52 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:21:08 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Report/participantes?fecha_inicial=01%2F11%2F2018&fecha_final=30%2F11%2F2018&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/11/2018"
+Key      : fecha_final
+Value    : "30/11/2018"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:21:49 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=%3F&_=1543598509735
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:25:02 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:25:06 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:26:08 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:26:16 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=%3F&_=1543598775857
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:26:26 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=ale&_=1543598775858
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:26:39 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/ConsultaTransaccion?id=22
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 22
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:26:39 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/FindByUser?id=22&_=1543598799191
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 22
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:27:27 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=ale&_=1543598846918
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:27:31 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:27:44 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:27:57 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:42:40 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=%3F&_=1543599759619
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:43:48 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:56:31 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:58:18 a. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:58:33 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1543600713061
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 11:58:45 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:00:22 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Prueba","Ape_paterno":"Tienda 1","Ape_materno":"Tienda 2","Username":"Tienda_01","Password":"loyalty","Email":"devAlexander07@gmail.com","Roles":"Tienda","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:00:33 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:00:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:01:17 p. m.
+
+UserId   : dac4e731-212e-48a0-8119-a5d515cf7c28
+UserName : Tienda_01
+Page Url : /api/Customer/Find?parameter=%3F&_=1543600877724
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:01:27 p. m.
+
+UserId   : dac4e731-212e-48a0-8119-a5d515cf7c28
+UserName : Tienda_01
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:01:58 p. m.
+
+UserId   : dac4e731-212e-48a0-8119-a5d515cf7c28
+UserName : Tienda_01
+Page Url : /api/Report/participantes?fecha_inicial=01%2F11%2F2018&fecha_final=30%2F11%2F2018&distribuidor_id=0&status_participante_id=3
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/11/2018"
+Key      : fecha_final
+Value    : "30/11/2018"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 3.0
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:02:14 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:02:29 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Report/participantes?fecha_inicial=01%2F11%2F2018&fecha_final=30%2F11%2F2018&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/11/2018"
+Key      : fecha_final
+Value    : "30/11/2018"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:03:01 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:07:19 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:08:06 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:09:27 p. m.
+
+UserId   : dac4e731-212e-48a0-8119-a5d515cf7c28
+UserName : Tienda_01
+Page Url : /api/Customer/Find?parameter=%3F&_=1543601367520
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:09:46 p. m.
+
+UserId   : dac4e731-212e-48a0-8119-a5d515cf7c28
+UserName : Tienda_01
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:10:15 p. m.
+
+UserId   : dac4e731-212e-48a0-8119-a5d515cf7c28
+UserName : Tienda_01
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:15:53 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:24:41 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=%3F&_=1543602280966
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:26:52 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:27:09 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=mnsnd&_=1543602429360
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "mnsnd"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:31:39 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:32:10 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:32:14 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:32:16 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:32:18 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:32:22 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=Hola&_=1543602742236
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "Hola"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:32:26 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:36:25 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:36:30 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:36:32 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:36:34 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:37:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1543603027352
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:37:33 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1543603027353
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:42:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1543603362336
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:43:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"Gerente","Ape_paterno":"Prueba","Ape_materno":"Prueba","Username":"gerente_prueba","Password":"loyalty","Email":"alejandro.jimenez.26@outlook.com","Roles":"Gerente","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:51:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1543603914834
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:51:58 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ksdfj&_=1543603914835
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "ksdfj"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:52:13 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:52:39 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Report/participantes?fecha_inicial=01%2F11%2F2018&fecha_final=30%2F11%2F2018&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/11/2018"
+Key      : fecha_final
+Value    : "30/11/2018"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:52:52 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:52:58 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:54:56 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=%3F&_=1543604095671
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:55:23 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:55:52 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:55:59 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Find?parameter=%3F&_=1543604159829
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:56:06 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:57:52 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:58:13 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:58:19 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:58:23 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 12:58:32 p. m.
+
+UserId   : b3fe9cfd-2150-4f3a-a7b9-9f84da49dad0
+UserName : devAlexander07@gmail.com
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 01:07:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1543604852035
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 30/11/2018 01:09:16 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddUser
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"Key":null,"Nombre":"MenuPersonalizado","Ape_paterno":null,"Ape_materno":null,"Username":"MenuPersonalizado","Password":"loyalty","Email":"aries_abril92@live.com.mx","Roles":"Administrador","Age":0,"Distribuidor":null}
+--------------------------------*End*------------------------------------------

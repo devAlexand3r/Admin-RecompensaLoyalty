@@ -1,0 +1,12 @@
+DateTime : 19/06/2019 11:54:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1561006474719
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome75, Version: 75.0, MVersion: 75
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------

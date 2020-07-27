@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8458DDBC-794C-43F5-A201-87AC0041B742}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JulioLoyalty.Model</RootNamespace>
+    <AssemblyName>JulioLoyalty.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.2\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="ApplicationDbInitializer.cs" />
+    <Compile Include="DbContextExtensions.cs" />
+    <Compile Include="DbContextJulio.cs" />
+    <Compile Include="EntitiesModels\AccessByUser.cs" />
+    <Compile Include="EntitiesModels\agenda_llamadas.cs" />
+    <Compile Include="EntitiesModels\agente.cs" />
+    <Compile Include="EntitiesModels\almacen_tarjetas.cs" />
+    <Compile Include="EntitiesModels\AspNetProfiles.cs" />
+    <Compile Include="EntitiesModels\AspNetRoles.cs" />
+    <Compile Include="EntitiesModels\AspNetUserClaims.cs" />
+    <Compile Include="EntitiesModels\AspNetUserLogins.cs" />
+    <Compile Include="EntitiesModels\AspNetUsers.cs" />
+    <Compile Include="EntitiesModels\AspNetUsers_Distribuidor.cs" />
+    <Compile Include="EntitiesModels\AspNetUsers_Participante.cs" />
+    <Compile Include="EntitiesModels\base_nse.cs" />
+    <Compile Include="EntitiesModels\bitacora_accesos.cs" />
+    <Compile Include="EntitiesModels\bitacora_activaciones.cs" />
+    <Compile Include="EntitiesModels\bitacora_envios.cs" />
+    <Compile Include="EntitiesModels\bitacora_transferencias.cs" />
+    <Compile Include="EntitiesModels\caja.cs" />
+    <Compile Include="EntitiesModels\calendario_canje.cs" />
+    <Compile Include="EntitiesModels\CatalogoErroresWS.cs" />
+    <Compile Include="EntitiesModels\catalogos_lealtad.cs" />
+    <Compile Include="EntitiesModels\catalogos_relaciones.cs" />
+    <Compile Include="EntitiesModels\categoria_premio.cs" />
+    <Compile Include="EntitiesModels\categoria_producto.cs" />
+    <Compile Include="EntitiesModels\categoria_tipo_llamada.cs" />
+    <Compile Include="EntitiesModels\categoria_transaccion.cs" />
+    <Compile Include="EntitiesModels\clave_rms.cs" />
+    <Compile Include="EntitiesModels\color.cs" />
+    <Compile Include="EntitiesModels\credito_debito.cs" />
+    <Compile Include="EntitiesModels\distribuidor.cs" />
+    <Compile Include="EntitiesModels\distribuidor_caja.cs" />
+    <Compile Include="EntitiesModels\distribuidor_direccion.cs" />
+    <Compile Include="EntitiesModels\encuesta.cs" />
+    <Compile Include="EntitiesModels\error_envio_RMS.cs" />
+    <Compile Include="EntitiesModels\error_recarga_sin_saldo_suficiente.cs" />
+    <Compile Include="EntitiesModels\estado_civil.cs" />
+    <Compile Include="EntitiesModels\familia.cs" />
+    <Compile Include="EntitiesModels\forma_pago.cs" />
+    <Compile Include="EntitiesModels\historial_status_premio.cs" />
+    <Compile Include="EntitiesModels\historico_acumulacion.cs" />
+    <Compile Include="EntitiesModels\historico_emails.cs" />
+    <Compile Include="EntitiesModels\historico_log.cs" />
+    <Compile Include="EntitiesModels\historico_tarjetas.cs" />
+    <Compile Include="EntitiesModels\historico_tarjeta_session_WS.cs" />
+    <Compile Include="EntitiesModels\historico_ventas.cs" />
+    <Compile Include="EntitiesModels\historico_ventas_forma_pago.cs" />
+    <Compile Include="EntitiesModels\historico_ventas_producto.cs" />
+    <Compile Include="EntitiesModels\linea.cs" />
+    <Compile Include="EntitiesModels\llamada.cs" />
+    <Compile Include="EntitiesModels\llamada_seguimiento.cs" />
+    <Compile Include="EntitiesModels\llamada_tipo_llamada.cs" />
+    <Compile Include="EntitiesModels\mailchimp_campaignSettings.cs" />
+    <Compile Include="EntitiesModels\mailchimp_list.cs" />
+    <Compile Include="EntitiesModels\mailing.cs" />
+    <Compile Include="EntitiesModels\marca_premio.cs" />
+    <Compile Include="EntitiesModels\Menu.cs" />
+    <Compile Include="EntitiesModels\nivel.cs" />
+    <Compile Include="EntitiesModels\no_participan.cs" />
+    <Compile Include="EntitiesModels\ocupacion.cs" />
+    <Compile Include="EntitiesModels\operadora.cs" />
+    <Compile Include="EntitiesModels\pais.cs" />
+    <Compile Include="EntitiesModels\participante.cs" />
+    <Compile Include="EntitiesModels\participante_direccion.cs" />
+    <Compile Include="EntitiesModels\participante_nivel.cs" />
+    <Compile Include="EntitiesModels\participante_nivel_historico.cs" />
+    <Compile Include="EntitiesModels\participante_status_comentarios.cs" />
+    <Compile Include="EntitiesModels\participante_tarjeta.cs" />
+    <Compile Include="EntitiesModels\participante_telefono.cs" />
+    <Compile Include="EntitiesModels\premio.cs" />
+    <Compile Include="EntitiesModels\producto.cs" />
+    <Compile Include="EntitiesModels\proveedor_premios.cs" />
+    <Compile Include="EntitiesModels\rama.cs" />
+    <Compile Include="EntitiesModels\saldos_participante.cs" />
+    <Compile Include="EntitiesModels\sepomex.cs" />
+    <Compile Include="EntitiesModels\sexo.cs" />
+    <Compile Include="EntitiesModels\status.cs" />
+    <Compile Include="EntitiesModels\status_carga.cs" />
+    <Compile Include="EntitiesModels\status_llamada.cs" />
+    <Compile Include="EntitiesModels\status_participante.cs" />
+    <Compile Include="EntitiesModels\status_premio.cs" />
+    <Compile Include="EntitiesModels\status_seguimiento.cs" />
+    <Compile Include="EntitiesModels\status_tarjeta.cs" />
+    <Compile Include="EntitiesModels\status_transaccion.cs" />
+    <Compile Include="EntitiesModels\SubMenu.cs" />
+    <Compile Include="EntitiesModels\sysdiagrams.cs" />
+    <Compile Include="EntitiesModels\talla.cs" />
+    <Compile Include="EntitiesModels\temporada.cs" />
+    <Compile Include="EntitiesModels\tipo_agente.cs" />
+    <Compile Include="EntitiesModels\tipo_direccion.cs" />
+    <Compile Include="EntitiesModels\tipo_llamada.cs" />
+    <Compile Include="EntitiesModels\tipo_pago.cs" />
+    <Compile Include="EntitiesModels\tipo_participante.cs" />
+    <Compile Include="EntitiesModels\tipo_tarjeta.cs" />
+    <Compile Include="EntitiesModels\tipo_telefono.cs" />
+    <Compile Include="EntitiesModels\tipo_transaccion.cs" />
+    <Compile Include="EntitiesModels\tmp_agentes.cs" />
+    <Compile Include="EntitiesModels\tmp_cajas.cs" />
+    <Compile Include="EntitiesModels\tmp_catproductos.cs" />
+    <Compile Include="EntitiesModels\tmp_formaspagos.cs" />
+    <Compile Include="EntitiesModels\tmp_sucursales.cs" />
+    <Compile Include="EntitiesModels\tmp_tickets.cs" />
+    <Compile Include="EntitiesModels\tmp_tickets_formasdepago.cs" />
+    <Compile Include="EntitiesModels\tmp_tickets_productos.cs" />
+    <Compile Include="EntitiesModels\transaccion.cs" />
+    <Compile Include="EntitiesModels\transaccion_comentarios.cs" />
+    <Compile Include="EntitiesModels\transaccion_detalle.cs" />
+    <Compile Include="EntitiesModels\transaccion_premio.cs" />
+    <Compile Include="EntitiesModels\transaccion_redencion.cs" />
+    <Compile Include="EntitiesModels\vendedor.cs" />
+    <Compile Include="ExceptionLogging.cs" />
+    <Compile Include="Mappings\Menu\AccessByUserMap.cs" />
+    <Compile Include="Mappings\Menu\MenuMap.cs" />
+    <Compile Include="Mappings\Menu\SubMenuMap.cs" />
+    <Compile Include="Mappings\ProfileMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JulioLoyalty.Entities\JulioLoyalty.Entities.csproj">
+      <Project>{739bda73-036b-41f3-8a50-afff70d3f1a8}</Project>
+      <Name>JulioLoyalty.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

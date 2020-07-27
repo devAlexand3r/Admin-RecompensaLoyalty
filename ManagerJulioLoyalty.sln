@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JulioLoyalty.UI", "JulioLoyalty.UI\JulioLoyalty.UI.csproj", "{591F1E5C-2677-43BB-8706-2F3144A9FFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JulioLoyalty.Model", "JulioLoyalty.Model\JulioLoyalty.Model.csproj", "{8458DDBC-794C-43F5-A201-87AC0041B742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JulioLoyalty.Business", "JulioLoyalty.Business\JulioLoyalty.Business.csproj", "{45AC3022-C168-4E2D-B475-F3367F3577D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JulioLoyalty.Entities", "JulioLoyalty.Entities\JulioLoyalty.Entities.csproj", "{739BDA73-036B-41F3-8A50-AFFF70D3F1A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591F1E5C-2677-43BB-8706-2F3144A9FFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591F1E5C-2677-43BB-8706-2F3144A9FFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591F1E5C-2677-43BB-8706-2F3144A9FFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591F1E5C-2677-43BB-8706-2F3144A9FFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8458DDBC-794C-43F5-A201-87AC0041B742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8458DDBC-794C-43F5-A201-87AC0041B742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8458DDBC-794C-43F5-A201-87AC0041B742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8458DDBC-794C-43F5-A201-87AC0041B742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AC3022-C168-4E2D-B475-F3367F3577D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AC3022-C168-4E2D-B475-F3367F3577D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AC3022-C168-4E2D-B475-F3367F3577D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AC3022-C168-4E2D-B475-F3367F3577D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739BDA73-036B-41F3-8A50-AFFF70D3F1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739BDA73-036B-41F3-8A50-AFFF70D3F1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739BDA73-036B-41F3-8A50-AFFF70D3F1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739BDA73-036B-41F3-8A50-AFFF70D3F1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3220303-B663-41D7-86D4-8E8BD9F5D4EB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lms-julio-loyalty-operacion-mvc.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = JulioLoyalty.Business\\JulioLoyalty.Business.csproj
+		SccProjectName1 = JulioLoyalty.Business
+		SccLocalPath1 = JulioLoyalty.Business
+		SccProjectUniqueName2 = JulioLoyalty.Entities\\JulioLoyalty.Entities.csproj
+		SccProjectName2 = JulioLoyalty.Entities
+		SccLocalPath2 = JulioLoyalty.Entities
+		SccProjectUniqueName3 = JulioLoyalty.Model\\JulioLoyalty.Model.csproj
+		SccProjectName3 = JulioLoyalty.Model
+		SccLocalPath3 = JulioLoyalty.Model
+		SccProjectUniqueName4 = JulioLoyalty.UI\\JulioLoyalty.UI.csproj
+		SccProjectName4 = JulioLoyalty.UI
+		SccLocalPath4 = JulioLoyalty.UI
+	EndGlobalSection
+EndGlobal

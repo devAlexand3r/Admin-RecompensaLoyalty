@@ -1,0 +1,648 @@
+DateTime : 18/12/2018 02:23:12 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1545164591847
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 02:24:29 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1545164591848
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 02:24:38 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 02:24:38 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1545164678334
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:33:29 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1545172408961
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:41:00 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1545172860713
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:44:31 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1545173070985
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:45:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=PER00101300001731&_=1545173109449
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:54:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1545173694116
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:55:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=GetUserId
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "GetUserId"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:11 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=JAL06006500036854
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "JAL06006500036854"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:56:27 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:59:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:59:04 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:59:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:59:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 04:59:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:00:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:00:31 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:00:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : null
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:03:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:04:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:04:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:04:31 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:05:25 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:05:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:05:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:05:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:05:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:05:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:06:28 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:06:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:07:00 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:07:52 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:07:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:08:33 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:08:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:09:23 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:09:25 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:09:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:09:46 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:10:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/consultaTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:10:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:10:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:11:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------
+DateTime : 18/12/2018 05:11:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Service/cancelTicket?numTicket=PER00101300001731
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : numTicket
+Value    : "PER00101300001731"
+--------------------------------*End*------------------------------------------

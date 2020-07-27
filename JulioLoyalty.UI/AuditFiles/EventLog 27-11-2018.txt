@@ -1,0 +1,620 @@
+DateTime : 27/11/2018 08:53:44 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543330423808
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 08:54:02 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 08:54:02 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1543330442835
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 04:36:21 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543358180867
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 04:36:40 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 05:12:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543360343922
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 05:12:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543360354732
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 05:16:02 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543360562682
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 05:51:29 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 05:51:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 05:51:52 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 05:59:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543363149587
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:01:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:03:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:04:02 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:05:58 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:07:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543363629582
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:09:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543363785126
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:09:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543363796726
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:12:19 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543363939066
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:13:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:13:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=2
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 2
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:13:46 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=3
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 3
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:13:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:15:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:16:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alejandro&_=1543364197186
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "alejandro"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:17:00 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:17:13 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=2
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 2
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:20:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:21:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:21:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:22:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:23:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:23:16 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=2
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 2
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:23:22 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=2
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 2
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:25:00 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:26:48 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:26:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=2
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 2
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:27:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=3
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 3
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:27:12 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=2
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 2
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:27:20 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:28:23 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:28:33 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=julio&_=1543364912875
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "julio"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:29:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:29:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1543364972481
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:35:21 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=julio&_=1543365321195
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "julio"
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:35:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------
+DateTime : 27/11/2018 06:35:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/Fraude?fecha=27%2F11%2F2018&tipo_reporte=1
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : fecha
+Value    : "27/11/2018"
+Key      : tipo_reporte
+Value    : 1
+--------------------------------*End*------------------------------------------

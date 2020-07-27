@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNet.Identity;
+@using Microsoft.AspNet.Identity.Owin;
+@{
+    ViewBag.Title = "Configuración";
+}
+@if (Request.IsAuthenticated)
+{
+    var user = HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindByName(User.Identity.Name);
+    var userName = string.Format("{0} {1}", user.Profiles.FirstName, user.Profiles.MiddleName);
+
+    <div class="col-md-12">
+        <div class="card border-info mx-auto col-md-4">
+            <div class="card-body">
+                <div class="text-center">
+                    <h3><i class="fas fa-unlock-alt fa-4x"></i></h3>
+                    <h2 class="text-center">@userName</h2>
+                    <p>Puede cambiar su contraseña aquí</p>
+                    <div class="panel-body">
+                        <form id="register-form" role="form" autocomplete="off" class="form" method="post">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input placeholder="Username" class="form-control" type="text" value="@user.UserName" readonly>
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input id="password" name="password" type="password" placeholder="Nueva contraseña" class="form-control">
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input id="cpassword" name="cpassword" type="password" placeholder="Confirmar contraseña" class="form-control">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <input id="change_password" name="change_password" type="button" class="btn btn-primary btn-block" value="Cambiar contraseña">
+                            </div>
+                            <input type="hidden" class="hide" name="token" id="token" value="@user.Id">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@Scripts.Render("~/Scripts/jquery-3.3.1.min.js")
+@Scripts.Render("~/Scripts/sweetalert2.all.min.js")
+@Scripts.Render("~/Scripts/global/swalAlert.js")
+@Scripts.Render("~/Scripts/general/control_usuarios.js")
+

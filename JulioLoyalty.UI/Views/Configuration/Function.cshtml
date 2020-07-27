@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "Cambiar contraseña";
+}
+<link href="~/Content/plugins/jquery-loading/css/jquery.loading.min.css" rel="stylesheet" />
+<div class="table-responsive">
+    <table id="tableUsers" class="table table-bordered table-sm table-hover w-100">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Correo electrónico</th>
+                <th>Rol</th>
+                <th>Usuario</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="edit">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">CAMBIAR CONTRASEÑA</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="divChange">
+                @{
+                    Html.RenderPartial("../Account/_ChangePassword");
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section scripts{
+    @Scripts.Render("~/bundles/dataTables")
+    @Scripts.Render("~/Content/plugins/jquery-loading/js/jquery.loading.min.js")
+    @Scripts.Render("~/Scripts/Custom/cambiar-contraseña.js")
+    @Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.min.js")
+
+    <script type="text/javascript">
+        function onBeginAjax(e) {
+            const update = $(e).attr("data-ajax-update");
+            if (update !== undefined) {
+                $(update).loading({
+                    message: 'Loading...',
+                    zIndex: 9999
+                });
+            }
+        }
+        function onCompleteAjax(e) {
+            const update = $(e).attr("data-ajax-update");
+            if (update !== undefined) {
+                $(update).loading('stop');
+            }
+
+            var text = $('span[data-valmsg-for="OK"]').text();
+            console.log(text);
+        }
+    </script>
+}
+

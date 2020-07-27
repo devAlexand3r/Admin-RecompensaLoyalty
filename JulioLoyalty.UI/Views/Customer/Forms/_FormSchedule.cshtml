@@ -1,0 +1,71 @@
+﻿@model JulioLoyalty.Entities.Modulos.Llamada.Models.FormSchedule
+
+<div>
+    @using (Ajax.BeginForm("SaveSchedule", new { Controller = "Customer" }, new AjaxOptions
+    {
+        HttpMethod = "POST",
+        UpdateTargetId = "divSchedule",
+        OnSuccess = "onSuccessAjax_reload(this)",
+        OnBegin = "onBeginAjax(this)",
+        OnComplete = "onCompleteAjax(this)"
+    }, new { @class = "form-horizontal", role = "form", autocomplete = "off", name = "form_shed" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.ScheduleId)
+        @Html.HiddenFor(m => m.PhoneNumberId)
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">AGENDAR CITA</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="">Nombre completo</label>
+                @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", @placeholder = "...", @readonly = true })
+                @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger text-left small" })
+            </div>
+            <div class="form-group">
+                <label>Fecha</label>
+                @Html.TextBoxFor(m => m.Date, new { @class = "form-control datepicker", @placeholder = "dd/mm/yyyy", @readonly = true })
+                @Html.ValidationMessageFor(m => m.Date, "", new { @class = "text-danger text-left small" })
+            </div>
+            <div class="form-group">
+                <label>Hora</label>
+                @Html.TextBoxFor(m => m.Hours, new { @class = "form-control datetimepicker", @placeholder = "hh:mm" })
+                @Html.ValidationMessageFor(m => m.Hours, "", new { @class = "text-danger text-left small" })
+            </div>
+            <div class="form-group">
+                <label>Comentarios</label>
+                @Html.TextAreaFor(m => m.Comments, new { @class = "form-control", @placeholder = "...", @rows = 3 })
+                @Html.ValidationMessageFor(m => m.Comments, "", new { @class = "text-danger text-left small" })
+            </div>
+            <div class="form-group">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group text-center">
+                @Html.ValidationMessage("OK", new { @class = "text-success", @style = "font-size:1.3em;" })
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+    }
+</div>
+
+@section scripts {
+    @Scripts.Render(
+        "~/Content/plugins/jQuery-Countdown/jquery.countdown.min.js",
+        "~/Content/plugins/jquery-loading/js/jquery.loading.min.js",
+        "~/Scripts/jquery.unobtrusive-ajax.min.js",
+        "~/Content/plugins/gijgo/js/gijgo.min.js",
+        "~/Content/plugins/gijgo/js/messages/messages.es-es.min.js"
+    )
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    <script>
+        $(document).ready(function () {
+            initDatepicker();
+        });
+    </script>
+}

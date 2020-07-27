@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Remplazo / Unificación";
+}
+
+@Styles.Render("~/Content/bootstrapSelect/bootstrap-select.min.css")
+
+<div style="border-bottom: 2px solid #ff6a00; padding:.5em; font-weight:bold; color:#ff6a00">REEMPLAZO / UNIFICACIÓN DE MEMBRESIA</div>
+<br />
+<div class="row">
+    <div class="col-lg-3">
+        <label>Nombre del participante</label>
+        <input type="text" class="form-control" id="nom_participante" disabled />
+    </div>
+</div>
+<div class="row" style="padding-bottom:10em;">
+    <div class="dataFieldError hidden col-lg-12 text-center"></div>
+    <div class="col-lg-3">
+        <label>No. Membresía</label>
+        <input type="text" class="form-control" id="num_tarjeta" disabled />
+    </div>
+    <div class="col-lg-3">
+        <label>Nuevo No. Membresía</label>
+        <input type="text" class="form-control numeric" id="nuevo_num_tarjeta" />
+    </div>
+    <div class="col-lg-3">
+        <label>Membresía a:</label>
+        <select id="selAccion" data-size="10" data-title="No hay selección" class="form-control">
+            <option value="REEMPLAZO">REEMPLAZAR</option>
+            <option value="UNIFICACION">UNIFICACIÓN</option>
+        </select>
+    </div>
+    <div class="col-lg-3" style="padding-top: 2em">
+        <button class="btn btn-primary" id="btnRemplazar" type="button"><i class="fas fa-check-square"></i> Guardar cambios</button>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/bundles/dataTables")
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    @Scripts.Render("~/Scripts/general/consulta_canje.js")
+}
+
+

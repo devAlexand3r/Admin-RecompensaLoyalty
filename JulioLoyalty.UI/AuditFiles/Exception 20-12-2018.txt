@@ -1,0 +1,44 @@
+﻿DateTime: 20/12/2018 11:03:38 a. m.
+
+UserId  : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName: desarrollo
+Line No.: 
+Exception Message      : No se puede reconocer la cadena como valor DateTime válido.
+InnerException Message : 
+Exception Name  : FormatException
+Exception Type  : System.FormatException
+Page Url: /api/ticket/test
+Host IP : ::1
+Browser : Chrome
+Details : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+--------------------------------*End*------------------------------------------
+DateTime: 20/12/2018 11:03:56 a. m.
+
+UserId  : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName: desarrollo
+Line No.: 
+Exception Message      : No se puede reconocer la cadena como valor DateTime válido.
+InnerException Message : 
+Exception Name  : FormatException
+Exception Type  : System.FormatException
+Page Url: /api/ticket/test
+Host IP : ::1
+Browser : Chrome
+Details : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+--------------------------------*End*------------------------------------------
+DateTime: 20/12/2018 11:37:48 a. m.
+
+UserId  : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName: desarrollo
+Line No.: 
+Exception Message      : No se encontró el procedimiento almacenado 'dbo.usp_buscar_clientes_'.
+InnerException Message : 
+Exception Name  : SqlException
+Exception Type  : System.Data.SqlClient.SqlException
+Page Url: /api/Customer/Find?parameter=ale&_=1545327467566
+Host IP : ::1
+Browser : Chrome
+Details : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------

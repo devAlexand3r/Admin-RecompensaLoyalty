@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Activación de tarjeta";
+}
+@Styles.Render("~/Content/bootstrapSelect/bootstrap-select.min.css")
+
+<div class="col-md-12">
+    <div class="card border-info mx-auto col-md-4">
+        <div class="card-body">
+            <div class="text-center">
+                <h3><i class="far fa-calendar-check fa-3x"></i></h3>
+                <h3 class="text-center">Activación de tarjeta</h3>
+                <p class="text-info">@ViewBag.Message</p>
+            </div>
+            <div class="panel-body">
+                <form id="form_activacion" role="form" autocomplete="off" class="form" method="post">
+                    <label>No. Membresía</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-credit-card"></i></span>
+                        </div>
+                        <input id="NoTarjeta" name="NoTarjeta" class="form-control" type="text" onkeypress="return isNumber(event)">
+                    </div>
+                    <div class="dataFieldError hidden" data-valmsg-for="NoTarjeta">El número de membresía es requerido</div>
+
+                    <div class="form-group required">
+                        <label class="control-label">No. Tienda</label>
+                        <select class="form-control selectpicker" id="selNoTienda" name="selNoTienda"></select>
+                        <div class="dataFieldError hidden" data-valmsg-for="selNoTienda">El No. Tienda es requerido</div>
+                    </div>
+
+                    <label>No. Ticket</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fas fa-hashtag"></i></div>
+                        </div>
+                        <input id="NoTicket" name="NoTicket" class="form-control" type="text">
+                    </div>
+                    <div class="dataFieldError hidden" data-valmsg-for="NoTicket">El número de ticket es requerido</div>
+                    <br />
+                    <input type="hidden" id="participante_id" value="0" />
+                    <div class="form-group">
+                        <input name="recover-submit" id="btnAgregar" class="btn btn-primary btn-block" value="Activar tarjeta" type="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/Scripts/sweetalert.min.js");
+    @Scripts.Render("~/Scripts/general/acumulacion_activiacion_cliente.js")
+}
+
+

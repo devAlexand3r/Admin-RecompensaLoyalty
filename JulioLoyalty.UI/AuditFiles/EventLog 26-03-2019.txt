@@ -1,0 +1,272 @@
+DateTime : 26/03/2019 07:51:54 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1553608313966
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 03:49:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1553636988808
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:34:53 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1553639693598
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:36:22 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=ale&_=1553639693599
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : parameter
+Value    : "ale"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:52:26 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo?tipo_reporte_id=6&fecha_inicial=01%2F03%2F2019&fecha_final=26%2F03%2F2019
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 6
+Key      : fecha_inicial
+Value    : "01/03/2019"
+Key      : fecha_final
+Value    : "26/03/2019"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:52:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo?tipo_reporte_id=1&fecha_inicial=01%2F03%2F2019&fecha_final=26%2F03%2F2019
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "01/03/2019"
+Key      : fecha_final
+Value    : "26/03/2019"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:52:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=01%2F03%2F2019&fecha_final=26%2F03%2F2019&campo_id=2&distribuidor_id=39
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "01/03/2019"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 2
+Key      : distribuidor_id
+Value    : 39.0
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:52:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=01%2F03%2F2019&fecha_final=26%2F03%2F2019&campo_id=3&distribuidor_id=39
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "01/03/2019"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 3
+Key      : distribuidor_id
+Value    : 39.0
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:10 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo?tipo_reporte_id=1&fecha_inicial=01%2F01%2F2019&fecha_final=26%2F03%2F2019
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "26/03/2019"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo?tipo_reporte_id=1&fecha_inicial=02%2F04%2F2018&fecha_final=26%2F03%2F2019
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "02/04/2018"
+Key      : fecha_final
+Value    : "26/03/2019"
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:30 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=02%2F04%2F2018&fecha_final=26%2F03%2F2019&campo_id=1&distribuidor_id=38
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "02/04/2018"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 1
+Key      : distribuidor_id
+Value    : 38.0
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=02%2F04%2F2018&fecha_final=26%2F03%2F2019&campo_id=2&distribuidor_id=38
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "02/04/2018"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 2
+Key      : distribuidor_id
+Value    : 38.0
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=02%2F04%2F2018&fecha_final=26%2F03%2F2019&campo_id=1&distribuidor_id=38
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "02/04/2018"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 1
+Key      : distribuidor_id
+Value    : 38.0
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:43 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=02%2F04%2F2018&fecha_final=26%2F03%2F2019&campo_id=3&distribuidor_id=38
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "02/04/2018"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 3
+Key      : distribuidor_id
+Value    : 38.0
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=02%2F04%2F2018&fecha_final=26%2F03%2F2019&campo_id=1&distribuidor_id=39
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "02/04/2018"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 1
+Key      : distribuidor_id
+Value    : 39.0
+--------------------------------*End*------------------------------------------
+DateTime : 26/03/2019 04:53:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/operativo_detalle?tipo_reporte_id=1&fecha_inicial=02%2F04%2F2018&fecha_final=26%2F03%2F2019&campo_id=3&distribuidor_id=39
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Key      : tipo_reporte_id
+Value    : 1
+Key      : fecha_inicial
+Value    : "02/04/2018"
+Key      : fecha_final
+Value    : "26/03/2019"
+Key      : campo_id
+Value    : 3
+Key      : distribuidor_id
+Value    : 39.0
+--------------------------------*End*------------------------------------------

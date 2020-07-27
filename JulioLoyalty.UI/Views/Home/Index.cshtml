@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Pagina principal";
+}
+
+<div class="table-responsive">
+    <table id="table_resultados" class="table table-bordered table-sm table-hover w-100">
+        <thead>
+            <tr>
+                <th>Número de tarjeta</th>
+                <th>Nombre</th>
+                <th>Apellido paterno</th>
+                <th>Apellido materno</th>
+                <th>Correo electrónico</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+@section scripts{
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    @Scripts.Render(
+    "~/Scripts/dataTables/jquery.dataTables.min.js",
+    "~/Scripts/dataTables/dataTables.bootstrap.min.js",
+    "~/Scripts/Registro/buscar_cliente.js"
+    )
+}

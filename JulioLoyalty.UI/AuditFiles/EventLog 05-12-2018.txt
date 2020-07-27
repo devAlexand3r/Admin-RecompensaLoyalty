@@ -1,0 +1,164 @@
+DateTime : 05/12/2018 01:20:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=Prueba4&_=1544037616568
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "Prueba4"
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:22:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:23:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=24
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 24
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:26:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=24
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 24
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:27:04 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=prueba&_=1544038024520
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "prueba"
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:27:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=Prueba4&_=1544038024521
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : parameter
+Value    : "Prueba4"
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:27:19 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=24
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 24
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:27:19 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=24&_=1544038039744
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 24
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:27:28 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=24
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 24
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:28:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:28:38 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=24&_=1544038118425
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 24
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:28:57 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Actualizar/Status
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"participante_id":24.0,"status_id":1,"comentarios":"test cookies","userName":null}
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:29:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Actualizar/Status
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : request
+Value    : {"participante_id":24.0,"status_id":14,"comentarios":"test cookies","userName":null}
+--------------------------------*End*------------------------------------------
+DateTime : 05/12/2018 01:30:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Participante/Direccion?id=24
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome70, Version: 70.0, MVersion: 70
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+Key      : id
+Value    : 24
+--------------------------------*End*------------------------------------------

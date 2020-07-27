@@ -1,0 +1,634 @@
+DateTime : 03/01/2019 11:58:23 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1546538302265
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 11:58:28 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alex&_=1546538302266
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : parameter
+Value    : "alex"
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 11:59:21 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:01:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:05:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1546538705992
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:05:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alex&_=1546538705993
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : parameter
+Value    : "alex"
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:05:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:05:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1546538732189
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:05:40 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:16:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:17:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:18:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:18:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:24:23 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:24:26 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:24:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:24:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:24:44 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:25:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:25:13 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:25:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:27:11 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:27:59 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:29:38 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:29:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:33:53 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:33:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:34:05 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:34:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:36:32 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1546540592140
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome64, Version: 64.0, MVersion: 64
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:36:37 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alex&_=1546540592141
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome64, Version: 64.0, MVersion: 64
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Key      : parameter
+Value    : "alex"
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:36:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome64, Version: 64.0, MVersion: 64
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:36:42 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25&_=1546540602606
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome64, Version: 64.0, MVersion: 64
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:36:49 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome64, Version: 64.0, MVersion: 64
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:36:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome64, Version: 64.0, MVersion: 64
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:38:50 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:38:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:39:28 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:40:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:41:09 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:47:30 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:47:39 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:48:06 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:48:17 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:57:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome71, Version: 71.0, MVersion: 71
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:57:27 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Usuario/Distribuidor
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+--------------------------------*End*------------------------------------------
+DateTime : 03/01/2019 12:57:43 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Report/participantes?fecha_inicial=01%2F01%2F2019&fecha_final=03%2F01%2F2019&distribuidor_id=0&status_participante_id=0
+Host IP  : ::1
+Browser  : InternetExplorer
+Details  : Browser: InternetExplorer, Type: InternetExplorer11, Version: 11.0, MVersion: 11
+UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Key      : fecha_inicial
+Value    : "01/01/2019"
+Key      : fecha_final
+Value    : "03/01/2019"
+Key      : distribuidor_id
+Value    : 0.0
+Key      : status_participante_id
+Value    : 0.0
+--------------------------------*End*------------------------------------------

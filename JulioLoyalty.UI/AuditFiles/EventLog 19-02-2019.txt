@@ -1,0 +1,60 @@
+DateTime : 19/02/2019 08:11:26 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=Alex&_=1550585486432
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+Key      : parameter
+Value    : "Alex"
+--------------------------------*End*------------------------------------------
+DateTime : 19/02/2019 10:07:39 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1550592459586
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 19/02/2019 10:08:16 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1550592496749
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 19/02/2019 11:16:06 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1550596565745
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 19/02/2019 11:19:43 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1550596782986
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome72, Version: 72.0, MVersion: 72
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------

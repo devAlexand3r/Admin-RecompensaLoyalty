@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Activación semanal";
+}
+
+@Styles.Render(
+    "~/Content/plugins/PivotTable/css/pivot.min.css",
+    "~/Content/plugins/jquery-loading/css/jquery.loading.min.css"
+    )
+
+<style>
+    .pvtRenderer, .pvtRowOrder, .pvtColOrder {
+        display: none;
+    }
+
+    .pvtAxisContainer, .pvtVals {
+        display: none;
+    }
+</style>
+
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="divCube" style=" height: auto;"></div>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+
+    @Scripts.Render(
+        "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+        "~/Content/plugins/PivotTable/js/pivott.js",
+        "~/Content/plugins/PivotTable/js/tips_data.min.js",
+        "~/Content/plugins/PivotTable/js/pivot.es.min.js",
+        "~/Content/plugins/PivotTable/js/subtotal.js",
+        "~/Content/plugins/jquery-loading/js/jquery.loading.min.js",
+        "~/Scripts/Custom/custom.pivot.js?cube=part"
+        )
+}

@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Ticket";
+}
+<div class="row">
+    <div class="col-3">
+        <input type="text" id="txtTicket" class="form-control" placeholder="Número de ticket" value="" />
+    </div>
+    <div class="col-lg-2">
+        <button id="btnBuscar" class="btn btn-primary">Buscar ticket</button>
+    </div>
+</div>
+<br />
+<div id="divContent">
+</div>
+
+
+@* Modal, ver detalles de transacciones *@
+<div class="modal fade" id="modCancel" tabindex="-1" role="dialog" aria-labelledby="modCancel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div style="padding:.5em; font-weight:bold; color:#ff6a00; font-size:25px;">CANCELACIÓN DE TICKET</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+               <h5 style="text-align:center;">¿ESTA SEGURO DE REALIZAR LA SIGUIENTE OPERACIÓN?</h5>
+            </div>
+            <div class="text-center" style="height:50px">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i> Cancelar</button>
+                <button type="button" class="btn btn-success btn-acept"  data-dismiss="modal" aria-label="Close"><i class="far fa-check-square"></i> Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/dataTables")
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    @Scripts.Render("~/Scripts/general/consulta_tickets.js")
+}
+
+

@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Histórico";
+}
+@Styles.Render("~/Content/bootstrapSelect/bootstrap-select.min.css")
+<link href="~/Content/sweetalert2.css" rel="stylesheet" />
+<div class="card hidden">
+    <div class="card-header">
+        <h3 class="text-center">@ViewBag.Title</h3>
+        <input type="hidden" id="participante_id" />
+    </div>
+    <form id="form_historico" role="form" autocomplete="off" class="form" method="post">
+        <div class="row">
+            <div class="col-lg-12">
+                <label class="control-label"> Participante</label>
+                <input type="text" id="participante" name="participante" class="form-control" disabled />
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table id="tabla_historico" class="table table-bordered table-sm table-hover w-100"></table>
+        </div>
+    </form>
+</div>
+@* Modal, ver detalle de llamada *@
+<div class="modal fade" id="details" tabindex="-1" role="dialog" aria-labelledby="details" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div style="padding:.5em; font-weight:bold; color:#ff6a00">DETALLE DE LLAMADA</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-sm table-hover w-100">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Nombre socia:</th>
+                                <td id="tdParticipante"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Persona que llamó:</th>
+                                <td id="tdPersona"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Teléfono:</th>
+                                <td id="tdTelefono"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fecha de la llamada:</th>
+                                <td id="tdFecha"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Descripción:</th>
+                                <td>
+                                    <textarea id="txtDescripcion" rows="5" disabled style="width:100%;">                                        
+                                    </textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cierre:</th>
+                                <td>
+                                    <textarea id="txtCierre" rows="5" disabled style="width:100%;">
+                                    </textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Persona que tomó la llamada:</th>
+                                <td id="tdUsuario"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>               
+                <style>
+                    #wkslist {
+                        list-style-type: none;
+                        padding: 0;                        
+                    }
+                </style>
+                <div class="table-responsive">
+                    <table id="tabla_historico_detalle" class="table table-bordered table-sm table-hover w-100">                                           
+                        <tr><td><ul id="wkslist"></ul></td></tr>                        
+                    </table>                    
+                </div>
+            </div>
+            <div class="modal-footer text-right">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i> Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/bundles/dataTables")
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    @Scripts.Render("~/Scripts/Llamada/historico.js")
+}

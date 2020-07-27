@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "Seguimiento";
+}
+@Styles.Render(
+    "~/Content/bootstrapSelect/bootstrap-select.min.css",
+    "~/Content/bootstrapDatepicker/bootstrap-datepicker.min.css"
+)
+<style>
+    .modal-lg {
+        max-width: 1000px;
+    }
+</style>
+<link href="~/Content/sweetalert2.css" rel="stylesheet" />
+<div class="card hidden">
+    <div class="card-header">
+        <h3 class="text-center">@ViewBag.Title</h3>
+    </div>
+    <form id="form_seguimiento" role="form" autocomplete="off" class="form" method="post">
+        <div class="row">
+            <div class="col-lg-12 required">
+                <label class="control-label"> Socia</label>
+                <input type="hidden" id="participante_id" />                
+                <input type="hidden" id="clave" />
+                <input type="hidden" id="distribuidor_id" />
+                <input type="text" id="participante" name="participante" class="form-control" disabled />
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table id="tabla_seguimiento" class="table table-bordered table-sm table-hover w-100"></table>
+        </div>
+    </form>
+</div>
+@* Modal, ver detalle de seguimiento de llamada *@
+<div class="modal fade" id="details" tabindex="-1" role="dialog" aria-labelledby="details" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div style="padding:.5em; font-weight:bold; color:#ff6a00">DETALLE DE SEGUIMIENTO</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <input type="hidden" id="hidLlamada_id" />
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-sm table-hover w-100">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Participante:</th>
+                                <td id="tdParticipante"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Descripción:</th>
+                                <td id="tdDescripcion"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Caso:</th>
+                                <td id="tdCaso"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-responsive">
+                    <table id="tabla_seguimiento_detalle" class="table table-bordered table-sm table-hover w-100"></table>
+                    <table id="tabla_seguimiento_guardar" class="table table-bordered table-sm table-hover w-100">
+                        <tr>
+                            <td scope="row">
+                                <strong>Comentarios:</strong><br />
+                                <textarea id="comentarios" name="comentarios" class="form-control" rows="5"></textarea>
+                                <div class="dataFieldError hidden" data-valmsg-for="comentarios">Comentarios es requerido</div>
+                            </td>
+                            <td scope="row">
+                                <strong>Escalamiento:</strong><br />
+                                <select id="escalamiento" name="escalamiento" class="form-control selectpicker"></select>
+                                <div class="dataFieldError hidden" data-valmsg-for="genero">Escalamiento es requerido</div>
+                            </td>
+                            <td scope="row">
+                                <strong>Status:</strong><br />
+                                <select id="status" name="status" class="form-control selectpicker"></select>
+                                <div class="dataFieldError hidden" data-valmsg-for="status">Status es requerido</div>
+                            </td>
+                            <td scope="row"><br /><button type="button" id="btnGuardar" class="btn btn-primary"> <i class="fas fa-edit"></i> Guardar</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer text-right">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i> Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/bundles/bootstrapDatepicker")
+    @Scripts.Render("~/bundles/dataTables")
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    @Scripts.Render("~/Scripts/Llamada/seguimiento.js")
+}

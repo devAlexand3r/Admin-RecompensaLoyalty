@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Abono manuales";
+}
+@Styles.Render(
+    "~/Content/bootstrapSelect/bootstrap-select.min.css",
+    "~/Content/bootstrapDatepicker/bootstrap-datepicker.min.css"
+)
+
+<div class="col-md-12">
+    <div class="card border-info mx-auto col-md-5">
+        <div class="card-body">
+            <div class="text-center">
+                <h3><i class="fa fa-credit-card fa-3x"></i></h3>
+                <h3 class="text-center">Abonos manuales</h3>
+                <p class="text-info">@ViewBag.Message</p>
+            </div>
+            <div class="panel-body">
+                <form id="addtransaccion-form" role="form" autocomplete="off" class="form" method="post">
+                    <label>Participante</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input id="fullname" placeholder="Nombre completo" class="form-control" type="text" disabled>
+                    </div>
+                    <label>Distribuidora</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fa fa-building"></i></div>
+                        </div>
+                        <input id="distribuidora" placeholder="" class="form-control" type="text" disabled>
+                    </div>
+                    <label>País</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fa fa-university"></i></div>
+                        </div>
+                        <input id="pais" placeholder="" class="form-control" type="text" disabled>
+                    </div>
+                    <div class="form-group required">
+                        <label class="control-label">Tipo de transacción</label>
+                        <select class="form-control selectpicker" id="selTipoTransaccion" name="selTipoTransaccion"></select>
+                        <div class="dataFieldError hidden" data-valmsg-for="selTipoTransaccion">Tipo de transacción es requerido</div>
+                    </div>
+                    <label>Puntos</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fas fa-hashtag"></i></div>
+                        </div>
+                        <input placeholder="" class="form-control" type="number" min="0" id="txtPuntos" name="txtPuntos" onkeypress="return isNumber(event)">
+                    </div>
+                    <div class="dataFieldError hidden" data-valmsg-for="txtPuntos">El número de puntos es requerido</div>
+                    <label>Fecha transacción</label>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                        <input id="txtFechaTransaccion" name="txtFechaTransaccion" placeholder="dd/MM/yyyy" class="form-control" type="text" value="">
+                    </div>
+                    <div class="dataFieldError hidden" data-valmsg-for="txtFechaTransaccion">La fecha transacción es incorrecta </div>
+                    <br />
+                    <div class="form-group required">
+                        <textarea rows="3" id="comentarios" name="comentarios" class="form-control" placeholder="Escribe aquí tus comentarios"></textarea>
+                    </div>
+                    <input type="hidden" id="participante_id" />
+                    <div class="form-group">
+                        <input name="recover-submit" id="btnAgregar" class="btn btn-primary btn-block" value="Guardar transacción" type="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/bundles/bootstrapDatepicker")
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    @Scripts.Render("~/Scripts/general/agregar_transaccion.js")
+}
+

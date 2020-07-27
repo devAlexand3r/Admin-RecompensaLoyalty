@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Registro";
+}
+
+<div class="row">
+
+    <form id="formRegistro">
+        <div class="panel panel-success">
+            <div class="panel-body">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="first_name">First Name</label>
+                        <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Nombre">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="last_name">Middle Name</label>
+                        <input type="text" class="form-control" id="middle_name" name="middle_name" placeholder="Apellido paterno">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Apellido materno">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" class="form-control" id="age" name="age" placeholder="Edad">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico">
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer" style="text-align:right">
+                <button id="btnNewUser" type="button" class="btn btn-primary">Enviar datos</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/ModRegistre")
+}

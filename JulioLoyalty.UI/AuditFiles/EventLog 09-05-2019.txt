@@ -1,0 +1,566 @@
+DateTime : 09/05/2019 08:09:58 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1557407397473
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 09:13:42 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":0,"Num_tarjeta":"1234235253532535","Nombre":"añkdkdaf","Ape_paterno":"ñsdkfñdskf","Ape_materno":"ñdkfñdskf","Fecha_nacimiento":"1951-01-11T06:00:00Z","Genero":0,"Estado":"BAJA CALIFORNIA SUR","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 09:16:27 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":0,"Num_tarjeta":"3593295325353259","Nombre":"lmalvlm<mb","Ape_paterno":"asddskg","Ape_materno":"lslgadgklagkk","Fecha_nacimiento":"1951-01-18T06:00:00Z","Genero":0,"Estado":"","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"3235032950","Tel_casa":null,"Correo":"","Ocupacion_id":6,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 09:35:37 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":0,"Num_tarjeta":"2035823520350235","Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Fecha_nacimiento":"1951-01-17T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"","Ocupacion_id":6,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 09:36:11 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/CheckEmail?email=devAlexander07%40gmail.com&clave=2035823520350235
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : email
+Value    : "devAlexander07@gmail.com"
+Key      : clave
+Value    : "2035823520350235"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 09:36:12 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":0,"Num_tarjeta":"2035823520350235","Nombre":"Alejandro","Ape_paterno":"Jimenez","Ape_materno":"Gonzalez","Fecha_nacimiento":"1951-01-17T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"","Tel_casa":null,"Correo":"devAlexander07@gmail.com","Ocupacion_id":6,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 10:38:33 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1557416313039
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 10:42:27 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alex&_=1557416547352
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "alex"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 10:43:34 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 10:43:52 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 10:46:16 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":0,"Num_tarjeta":"0285238058308508","Nombre":"aLEJAND","Ape_paterno":"OWJEOJEW","Ape_materno":"OWEROEWJR","Fecha_nacimiento":"1951-01-12T06:00:00Z","Genero":0,"Estado":"BAJA CALIFORNIA SUR","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"3949543958","Tel_casa":null,"Correo":"","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 10:47:09 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":0,"Num_tarjeta":"0322934923949329","Nombre":"sjfakjdlfalf","Ape_paterno":"skdlfksdf","Ape_materno":"skdpfkspdf","Fecha_nacimiento":"1951-01-12T06:00:00Z","Genero":0,"Estado":"","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"4239439423","Tel_casa":null,"Correo":"","Ocupacion_id":6,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:17:03 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:21:04 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:25:27 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:26:19 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:26:37 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:26:50 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:33:50 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:34:35 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/CheckEmail?email=alejandro.jimenez%40mx.lms-la.com&clave=1489995382257719
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : email
+Value    : "alejandro.jimenez@mx.lms-la.com"
+Key      : clave
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:34:35 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/UpdateCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":25,"Num_tarjeta":"1489995382257719","Nombre":"Alexander","Ape_paterno":"Hernadez","Ape_materno":"Cruz","Fecha_nacimiento":"1981-11-29T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"alejandro.jimenez@mx.lms-la.com","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:36:52 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/CheckEmail?email=alejandro.jimenez%40mx.lms-la.com&clave=1489995382257719
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : email
+Value    : "alejandro.jimenez@mx.lms-la.com"
+Key      : clave
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:36:52 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/UpdateCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":25,"Num_tarjeta":"1489995382257719","Nombre":"Alexander","Ape_paterno":"Hernadez","Ape_materno":"Cruz","Fecha_nacimiento":"1981-11-29T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"alejandro.jimenez@mx.lms-la.com","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:40:12 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alex&_=1557420011842
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "alex"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:41:25 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:41:31 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/CheckEmail?email=alejandro.jimenez%40mx.lms-la.com&clave=1489995382257719
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : email
+Value    : "alejandro.jimenez@mx.lms-la.com"
+Key      : clave
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 11:41:31 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/UpdateCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":25,"Num_tarjeta":"1489995382257719","Nombre":"Alexander","Ape_paterno":"Hernadez","Ape_materno":"Cruz","Fecha_nacimiento":"1981-11-29T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"alejandro.jimenez@mx.lms-la.com","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:13:51 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=alex&_=1557425631462
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "alex"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:14:46 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:15:08 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:17:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/CheckEmail?email=alejandro.jimenez%40mx.lms-la.com&clave=1489995382257719
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : email
+Value    : "alejandro.jimenez@mx.lms-la.com"
+Key      : clave
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:17:34 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/UpdateCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":25,"Num_tarjeta":"1489995382257719","Nombre":"Alexander","Ape_paterno":"Hernadez","Ape_materno":"Cruz","Fecha_nacimiento":"1981-11-29T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"alejandro.jimenez@mx.lms-la.com","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:18:02 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=25
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 25
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:18:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/CheckEmail?email=alejandro.jimenez%40mx.lms-la.com&clave=1489995382257719
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : email
+Value    : "alejandro.jimenez@mx.lms-la.com"
+Key      : clave
+Value    : "1489995382257719"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:18:07 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/UpdateCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":25,"Num_tarjeta":"1489995382257719","Nombre":"Alexander","Ape_paterno":"Hernadez","Ape_materno":"Cruz","Fecha_nacimiento":"1981-11-29T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"alejandro.jimenez@mx.lms-la.com","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:21:24 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/AddCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":0,"Num_tarjeta":"2211400915849080","Nombre":"Cecilia","Ape_paterno":"Gonzalez","Ape_materno":"Hernandez","Fecha_nacimiento":"1974-04-14T06:00:00Z","Genero":0,"Estado":"VERACRUZ DE IGNACIO DE LA LLAVE","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"","Ocupacion_id":5,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:25:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=2211400915849080&_=1557426315339
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : parameter
+Value    : "2211400915849080"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:25:22 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/ConsultaTransaccion?id=75
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 75
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:25:22 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=75&_=1557426322645
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 75
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:26:01 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=75
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 75
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:26:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/UpdateCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":75,"Num_tarjeta":"2211400915849080","Nombre":"Cecilia","Ape_paterno":"Gonzalez","Ape_materno":"Hernandez","Fecha_nacimiento":"1974-04-14T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"","Ocupacion_id":4,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:28:00 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/CheckEmail?email=alejandro.jimenez.26%40outlook.com&clave=2211400915849080
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : email
+Value    : "alejandro.jimenez.26@outlook.com"
+Key      : clave
+Value    : "2211400915849080"
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:28:54 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Update/UnifyCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":75,"Num_tarjeta":"2211400915849080","Nombre":"Cecilia","Ape_paterno":"Gonzalez","Ape_materno":"Hernandez","Fecha_nacimiento":"1974-04-14T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"alejandro.jimenez.26@outlook.com","Ocupacion_id":4,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:32:55 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=75
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 75
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:33:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/FindByUser?id=75
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : id
+Value    : 75
+--------------------------------*End*------------------------------------------
+DateTime : 09/05/2019 01:33:22 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/UpdateCustomer
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome73, Version: 73.0, MVersion: 73
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Key      : request
+Value    : {"Id":75,"Num_tarjeta":"2211400915849080","Nombre":"Cecilia","Ape_paterno":"Gonzalez","Ape_materno":"Hernandez","Fecha_nacimiento":"1974-04-14T06:00:00Z","Genero":0,"Estado":"CDMX","Municipio":null,"Colonia":null,"Codigo_postal":null,"Tel_celular":"5578587415","Tel_casa":null,"Correo":"","Ocupacion_id":4,"Favorito":0,"Frecuenta":0,"UserName":null,"URL":null}
+--------------------------------*End*------------------------------------------

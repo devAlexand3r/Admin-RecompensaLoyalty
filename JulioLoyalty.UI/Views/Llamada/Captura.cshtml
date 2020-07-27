@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Captura";
+}
+@Styles.Render("~/Content/bootstrapSelect/bootstrap-select.min.css")
+<link href="~/Content/sweetalert2.css" rel="stylesheet" />
+<div class="card hidden">
+    <div class="card-header">
+        <h3 class="text-center">@ViewBag.Title</h3>
+    </div>
+    <form id="form_captura" role="form" autocomplete="off" class="form" method="post">
+        <div class="row">
+            <div class="col-lg-12 required">
+                <label class="control-label">Origen</label>
+                <select class="form-control selectpicker" id="selStatusSeguimientoAbierto" name="selStatusSeguimientoAbierto"></select>
+                <div class="dataFieldError hidden" data-valmsg-for="selStatusSeguimientoAbierto">El Origen es requerido</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 required">
+                <label class="control-label">Socia</label>
+                <input type="text" id="participante" name="participante" class="form-control" disabled />
+                <div class="dataFieldError hidden" data-valmsg-for="participante">Socia es requerida</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 required">
+                <label class="control-label">Persona que llamó</label>
+                <input type="text" id="persona" name="persona" class="form-control" />
+                <div class="dataFieldError hidden" data-valmsg-for="persona">Persona que llamó es requerido</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="divTelefono">
+                <input type="hidden" id="hidTelefono" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 required">
+                <input type="hidden" id="hidDistribuidor_Id" />
+                <label class="control-label">No. Tienda</label>
+                <select class="form-control selectpicker" id="selNoTienda" name="selNoTienda"></select>
+                <div class="dataFieldError hidden" data-valmsg-for="selNoTienda">El No. Tienda es requerido</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 required">
+                <label class="control-label"> Comentarios</label>
+                <textarea id="comentarios" name="comentarios" class="form-control" rows="5"></textarea>
+                <div class="dataFieldError hidden" data-valmsg-for="comentarios">Comentarios es requerido</div>
+            </div>
+        </div>
+        <br />
+        <div id="containerTipoLLamada" class="container" style="margin-top:20px;">
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="dataFieldError hidden" data-valmsg-for="tipo_llamada">Debe seleccionar al menos una llamada</div>
+            </div>
+        </div>
+        <br />
+        <input type="hidden" id="participante_id" />        
+        <div class="card-footer text-right">
+            <button type="button" id="btnGuardar" class="btn btn-primary"> <i class="fas fa-edit"></i> Guardar</button>
+            <button type="button" id="btnLimpiar" class="btn btn-primary"><i class="fas fa-eraser"></i> Limpiar</button>
+        </div>
+    </form>
+</div>
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/bundles/bootstrapDatepicker")
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    @Scripts.Render("~/Scripts/Llamada/captura.js")
+}

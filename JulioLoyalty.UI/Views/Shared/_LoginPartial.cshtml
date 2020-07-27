@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNet.Identity;
+@using Microsoft.AspNet.Identity.Owin;
+
+@if (Request.IsAuthenticated)
+{
+    var user = HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindByName(User.Identity.Name);
+    var fullName = string.Format("{0} {1}", user.Profiles.FirstName, user.Profiles.MiddleName);
+
+    <div id="perfil">
+        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+        {
+            @Html.AntiForgeryToken()
+            if (User.IsInRole("Administrador") || User.IsInRole("CallCenter"))
+            {
+                <input id="hidAccesoLlamadas" value="1" type="hidden" />
+                <input id="rolName" value="administrador" type="hidden" />
+            }
+            else
+            {
+                <input id="hidAccesoLlamadas" value="0" type="hidden" />
+                <input id="rolName" value="-" type="hidden" />
+            }
+            <em class="fas fa-user mr-2 verde ocultar"></em>
+            <span class="verde ocultar">Hola </span> <span class="verde ocultar"> @fullName </span>
+            <span class="vDivider"></span>
+            <span>
+                <a href="@Url.Action("Setting","Account")" class="verde">
+                    <em class="fas fa-unlock-alt mr-md-2 verde"></em>
+                    <span class="ocultar">Cambiar Contraseña</span>
+                </a>
+            </span>
+            <span class="vDivider"></span>
+            <a href="javascript: document.getElementById('logoutForm').submit()" class="verde">
+                <em class="fas fa-sign-out-alt mr-2 verde"></em>
+                <span class="ocultar">Cerrar Sesión</span>
+            </a>
+        }
+    </div>
+}
+else
+{
+    <div id="perfil">
+        <a href="@Url.Action("Login","Account")" class="verde">
+            <em class="fas fa-sign-out-alt mr-2 verde"></em>
+            <span class="ocultar">Iniciar Sesión</span>
+        </a>
+    </div>
+}
