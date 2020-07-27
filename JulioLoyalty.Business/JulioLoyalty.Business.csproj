@@ -88,6 +88,7 @@
     <Compile Include="MCatalogos\ConsultaCatalagos.cs" />
     <Compile Include="MCatalogos\IMantenimiento.cs" />
     <Compile Include="MCatalogos\Mantenimiento.cs" />
+    <Compile Include="Mecanica\MecanicaImplementacion.cs" />
     <Compile Include="Parameters\RequestGeneraCampania.cs" />
     <Compile Include="Parameters\RequestCaptura.cs" />
     <Compile Include="Parameters\RequestEnvio.cs" />

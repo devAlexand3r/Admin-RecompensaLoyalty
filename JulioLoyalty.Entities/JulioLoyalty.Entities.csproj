@@ -93,6 +93,7 @@
     <Compile Include="MailChimp\cRespCreateMembersList.cs" />
     <Compile Include="Mailing.cs" />
     <Compile Include="Mantenimiento\Lista.cs" />
+    <Compile Include="Mecanica\MecanicaNivel.cs" />
     <Compile Include="Menu\AccessByUser.cs" />
     <Compile Include="Menu\Menu.cs" />
     <Compile Include="Menu\SubMenu.cs" />
