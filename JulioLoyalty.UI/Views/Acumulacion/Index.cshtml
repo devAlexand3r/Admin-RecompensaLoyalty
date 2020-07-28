@@ -208,7 +208,12 @@
                 columns: [
                     { data: 'sku' },
                     { data: 'producto' },
-                    { data: 'cantidad' },
+                    {
+                        data: 'cantidad',
+                        render: function (data, type, row) {
+                            return `<h6><i class="fas fa-minus-circle verde"></i> ${data} <i class="fas fa-plus-circle verde"></i></h6>`;
+                        }
+                    },
                     { data: 'precio' },
                     {
                         data: 'cantidad',
@@ -268,7 +273,30 @@
                     }
                 }
             }).off('click').on('click', 'tbody tr', function (event) {
-                var row = table.row(this).data();
+                var producto = table.row(this).data();
+                var className = $(event.target).attr('class');
+                switch (className) {
+                    case "fas fa-plus-circle verde":
+                        producto.cantidad += 1;
+                        break;
+                    case "fas fa-minus-circle verde":
+                        if (producto.cantidad > 1)
+                            producto.cantidad -= 1;
+                        break;
+                }
+
+                switch (className) {
+                    case "fas fa-plus-circle verde":
+                    case "fas fa-minus-circle verde":
+                        productos.forEach(function (row, index) {
+                            if (row.sku === producto.sku) {
+                                row.cantidad == producto.cantidad;
+                                cargarProductos();
+                            }
+                        });
+                        break;
+                }
+
                 $(this).addClass('row-selected').siblings().removeClass('row-selected');
             });
         }
