@@ -444,6 +444,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AcumulacionController.cs" />
     <Compile Include="Controllers\CampaignController.cs" />
     <Compile Include="Controllers\ConfigurationController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
@@ -1802,6 +1803,7 @@
     <Content Include="Views\Report\Buy.cshtml" />
     <Content Include="Views\Report\Activation.cshtml" />
     <Content Include="Views\Mecanica\Index.cshtml" />
+    <Content Include="Views\Acumulacion\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

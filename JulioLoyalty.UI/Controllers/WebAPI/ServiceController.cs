@@ -8,14 +8,17 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 
 namespace JulioLoyalty.UI.Controllers.WebAPI
 {
+    [Authorize]
     public class ServiceController : ApiController
     {
 
@@ -190,7 +193,7 @@ namespace JulioLoyalty.UI.Controllers.WebAPI
 
 
         [AuditFilterApi, APIExceptionFilter]
-        [HttpGet]        
+        [HttpGet]
         public string cancelTicket(string numTicket)
         {
             if (string.IsNullOrEmpty(numTicket))
@@ -199,10 +202,98 @@ namespace JulioLoyalty.UI.Controllers.WebAPI
             using (DbContextJulio db = new DbContextJulio())
             {
                 var aspnetusers_id = User.Identity.GetUserId();
-                Dictionary<string, object> parameters = new Dictionary<string, object>();               
+                Dictionary<string, object> parameters = new Dictionary<string, object>();
                 parameters.Add("@ticket", numTicket);
                 DataSet setTables = db.GetDataSet("[dbo].[usp_quita_ticket]", CommandType.StoredProcedure, parameters);
                 return JsonConvert.SerializeObject(setTables.Tables);
+            }
+        }
+
+        [HttpGet]
+        public async Task<IHttpActionResult> ConsultaProductos(string clave)
+        {
+            using (DbContextJulio db = new DbContextJulio())
+            {
+                var productos = await db.producto.Where(w => w.clave_ean.Contains(clave)).Select(s => new
+                {
+                    s.id,
+                    s.clave,
+                    s.descripcion,
+                    s.clave_ean,
+                    s.precio_lista,
+                    s.precio_publico
+                }).Take(10).ToListAsync();
+
+                return Json(productos);
+            }
+        }
+
+        [HttpGet]
+        public string GuardaHistoricoVentas(string Numero, string FechaCompra, decimal Total, string Tarjeta)
+        {
+            DateTime fechaCompra = Convert.ToDateTime(FechaCompra);
+
+            using (DbContextJulio db = new DbContextJulio())
+            {
+                var aspnetusers_id = User.Identity.GetUserId();
+                Dictionary<string, object> parameters = new Dictionary<string, object>
+                {
+                    { "@tarjeta", Tarjeta  },
+                    { "@ticket", Numero },
+                    { "@fechaventa", fechaCompra },
+                    { "@total", Total }
+                };
+                DataSet setTables = db.GetDataSet("[dbo].[usp_guarda_historico_ventas]", CommandType.StoredProcedure, parameters);
+                return JsonConvert.SerializeObject(setTables.Tables[0]);
+            }
+        }
+
+        [HttpGet]
+        public string GuardaHistoricoVentasProducto(decimal HistoricoId, string ClaveProducto, decimal Cantidad, decimal Precio)
+        {
+            using (DbContextJulio db = new DbContextJulio())
+            {
+                var aspnetusers_id = User.Identity.GetUserId();
+                Dictionary<string, object> parameters = new Dictionary<string, object>
+                {
+                    { "@historico_ventas_id", HistoricoId  },
+                    { "@clave_ean", ClaveProducto },
+                    { "@cantidad", Cantidad },
+                    { "@precio", Precio }
+                };
+                DataSet setTables = db.GetDataSet("[dbo].[usp_guarda_historico_ventas_producto]", CommandType.StoredProcedure, parameters);
+                return JsonConvert.SerializeObject(setTables.Tables[0]);
+            }
+        }
+
+        [HttpGet]
+        public string GuardaHistoricoVentasFormaPago(decimal HistoricoId, decimal Puntos)
+        {
+            using (DbContextJulio db = new DbContextJulio())
+            {
+                var aspnetusers_id = User.Identity.GetUserId();
+                Dictionary<string, object> parameters = new Dictionary<string, object>
+                {
+                    { "@historico_ventas_id", HistoricoId  },
+                    { "@importe_pago_puntos", Puntos },
+                };
+                DataSet setTables = db.GetDataSet("[dbo].[usp_guarda_historico_ventas_forma_pago]", CommandType.StoredProcedure, parameters);
+                return JsonConvert.SerializeObject(setTables.Tables[0]);
+            }
+        }
+
+        [HttpGet]
+        public string ObtenerSaldoCliente(decimal Id)
+        {
+            using (DbContextJulio db = new DbContextJulio())
+            {
+                var aspnetusers_id = User.Identity.GetUserId();
+                Dictionary<string, object> parameters = new Dictionary<string, object>
+                {
+                    { "@participante_id", Id  }
+                };
+                DataSet setTables = db.GetDataSet("[dbo].[sp_obtiene_saldo_participante]", CommandType.StoredProcedure, parameters);
+                return JsonConvert.SerializeObject(setTables.Tables[0]);
             }
         }
 

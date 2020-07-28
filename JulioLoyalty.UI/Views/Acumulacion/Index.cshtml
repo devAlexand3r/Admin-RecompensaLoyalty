@@ -1,0 +1,491 @@
+﻿
+@{
+    ViewBag.Title = "Acumulacion";
+}
+
+@Styles.Render(
+    "~/Content/bootstrapDatepicker/bootstrap-datepicker.min.css"
+)
+
+<div class="row">
+    <div class="col-lg-3 required">
+        <label class="control-label">Número Ticket</label>
+        <input type="text" id="NumeroTicket" class="form-control" />
+        <div class="dataFieldError hidden" id="acumulacion_NumeroTicket">El número de ticket no es válido</div>
+    </div>
+    <div class="col-lg-3 required">
+        <label class="control-label">Fecha Compra</label>
+        <input type="text" id="FechaCompra" class="form-control date" autocomplete="off" />
+        <div class="dataFieldError hidden" id="acumulacion_FechaCompra">La fecha de compra no es válido</div>
+    </div>
+    <div class="col-lg-3">
+        <label class="control-label">Pago con Puntos</label>
+        <input type="number" id="PagoPuntos" class="form-control" min="0" oninput="this.value = this.value.replace(/[^0-9]/g,'')" />
+        <div class="dataFieldError hidden" id="acumulacion_PagoPuntos">Puntos insuficientes</div>
+    </div>
+    <div class="col-lg-3">
+        <label class="control-label">Total Ticket</label>
+        <input type="text" id="TotalTicket" class="form-control" readonly />
+    </div>
+</div>
+<br />
+<div class="table-responsive">
+    <table id="tabla_productos" class="table table-bordered table-sm table-hover w-100">
+        <thead>
+            <tr>
+                <th>SKU</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>SubTotal</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+<br />
+<div>
+    <button type="button" class="btn btn-default"><i class="fas fa-times"></i> Cancelar</button>
+    <button type="button" class="btn btn-primary"><i class="far fa-check-square"></i> Registrar compra</button>
+</div>
+
+<div class="modal fade" id="mdProductos" tabindex="-1" role="dialog" aria-labelledby="details" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Buscar productos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="text-right">
+                    <input id="inp-search" placeholder="Buscar producto" class="form-control col-lg-3" />
+                </div>
+                <div class="table-responsive">
+                    <table id="tabla_busqueda" class="table table-bordered table-sm table-hover w-100">
+                        <thead>
+                            <tr>
+                                <th>SKU</th>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    @Scripts.Render("~/bundles/dataTables")
+    @Scripts.Render("~/Scripts/sweetalert.min.js")
+    @Scripts.Render("~/bundles/bootstrapDatepicker")
+
+    @Scripts.Render(
+        "https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js",
+        "https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"
+    )
+
+    <!--JS Jquery loading-->
+    @Scripts.Render(
+        "https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"
+    )
+
+    <script>
+
+        var user = JSON.parse(localStorage.getItem('objUser'));
+        //console.log(user);
+
+        $('.form-control.date').datepicker({
+            format: "dd/mm/yyyy",
+            language: 'es',
+            autoclose: true,
+            todayHighlight: true,
+            startDate: '01/01/' + (new Date().getFullYear() - 12).toString(),
+            endDate: new Date()
+        });
+
+        var tablaProductos = $('#tabla_productos');
+        var tablaBusqueda = $('#tabla_busqueda');
+        var modalProductos = $('#mdProductos');
+        var textoBusqueda = $('#inp-search');
+
+        var inputNumeroTicket = $('#NumeroTicket');
+        var inputFechaCompra = $('#FechaCompra');
+        var inputPagoPunto = $('#PagoPuntos');
+        var inputTotalTicket = $('#TotalTicket');
+
+        var btnCancelar = $('.btn-default');
+        var btnRegistrar = $('.btn-primary');
+
+        var productos = [];
+        var totalTicket = 0;
+        var saldoCliente = 0;
+
+        cargarProductos();
+        buscarProductos("");
+
+        textoBusqueda.change(function () {
+            buscarProductos(this.value);
+        });
+
+        function buscarProductos(clave) {
+            this.tablaBusqueda.DataTable().destroy();
+            var table = tablaBusqueda.DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json'
+                },
+                ajax: {
+                    url: appBaseUrl + 'api/service/ConsultaProductos',
+                    data: function (d) {
+                        d.clave = clave;
+                    },
+                    dataSrc: function (data) {
+                        return data;
+                    }
+                },
+                rowId: 'id',
+                scrollCollapse: false,
+                paging: false,
+                searching: false,
+                info: false,
+                select: true,
+                columns: [
+                    { data: 'clave_ean' },
+                    { data: 'descripcion' },
+                    { data: 'precio_publico' }
+                ]
+            }).off('click').on('click', 'tbody tr', function (event) {
+                var row = table.row(this).data();
+
+                var producto = {
+                    sku: row.clave_ean,
+                    producto: row.descripcion,
+                    cantidad: 1,
+                    precio: row.precio_publico,
+                };
+
+                var existe = false;
+                var posicion = 0;
+                productos.forEach(function (row, index) {
+                    if (row.sku === producto.sku) {
+                        posicion = index;
+                        existe = true;
+                    }
+                });
+
+                if (!existe) {
+                    productos.push(producto);
+                }
+
+                if ($(this).hasClass('row-selected')) {
+                    $(this).removeClass('row-selected');
+                    productos.splice(posicion, 1);
+                }
+                else {
+                    $(this).addClass('row-selected');
+                }
+            });
+        }
+
+        function cargarProductos() {
+
+            inputTotalTicket.val("");
+
+            this.tablaProductos.DataTable().destroy();
+            var table = tablaProductos.DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json'
+                },
+                aaData: productos,
+                rowId: 'id',
+                scrollCollapse: true,
+                paging: true,
+                searching: false,
+                info: false,
+                columns: [
+                    { data: 'sku' },
+                    { data: 'producto' },
+                    { data: 'cantidad' },
+                    { data: 'precio' },
+                    {
+                        data: 'cantidad',
+                        render: function (data, type, row) {
+                            return data * row.precio;
+                        }
+                    },
+                ],
+                dom: 'Bfrtip',
+                select: true,
+                buttons: [
+                    {
+                        text: '<i class="fa fa-plus-circle"></i> Agregar',
+                        className: 'btn btn-success',
+                        action: function (e, dt, node, config) {
+                            modalProductos.modal('show');
+                        },
+                        counter: 1
+                    },
+                    //{
+                    //    text: '<i class="far fa-edit"></i> Editar',
+                    //    className: 'btn btn-info',
+                    //    action: function (e, dt, node, config) {
+                    //        var count = table.rows({ selected: true }).count();
+                    //        if (count > 0) {
+                    //            var row = table.rows({ selected: true }).data()[0];
+                    //        }
+                    //    },
+                    //    counter: 1
+                    //},
+                    {
+                        text: '<i class="far fa-trash-alt"></i> Eliminar',
+                        className: 'btn btn-danger',
+                        action: function (e, dt, node, config) {
+                            var count = table.rows({ selected: true }).count();
+                            if (count > 0) {
+                                totalTicket = 0;
+                                var producto = table.rows({ selected: true }).data()[0];
+                                productos.forEach(function (row, index) {
+                                    if (row.sku === producto.sku) {
+                                        productos.splice(index, 1);
+                                    }
+                                });
+                                cargarProductos();
+                            }
+                        },
+                        counter: 1
+                    }
+                ],
+                fnRowCallback: function (nRow, aData, iDisplayIndex) {
+                    const cantidad = parseInt(aData.cantidad);
+                    const precio = parseInt(aData.precio);
+
+                    totalTicket += (cantidad * precio);
+                    if (totalTicket > 0) {
+                        inputTotalTicket.val(parseInt(totalTicket).toLocaleString());
+                    }
+                }
+            }).off('click').on('click', 'tbody tr', function (event) {
+                var row = table.row(this).data();
+                $(this).addClass('row-selected').siblings().removeClass('row-selected');
+            });
+        }
+
+        modalProductos.on('hide.bs.modal', function (e) {
+            cargarProductos();
+        }).on('show.bs.modal', function (e) {
+            buscarProductos("");
+        });
+
+        btnCancelar.click(function () {
+            productos = [];
+            inputNumeroTicket.val("");
+            inputFechaCompra.val("");
+            inputPagoPunto.val("");
+            cargarProductos();
+        });
+
+        btnRegistrar.click(function () {
+            var numeroTicket = inputNumeroTicket.val();
+            var fechaCompra = inputFechaCompra.val();
+            var pagoPuntos = parseInt(inputPagoPunto.val());
+
+            $('#acumulacion_NumeroTicket').addClass('hidden');
+            if (numeroTicket.length < 6)
+                $('#acumulacion_NumeroTicket').removeClass('hidden');
+
+            $('#acumulacion_FechaCompra').addClass('hidden');
+            if (fechaCompra.length < 10)
+                $('#acumulacion_FechaCompra').removeClass('hidden');
+
+            $('#acumulacion_PagoPuntos').addClass('hidden');
+            if (pagoPuntos > saldoCliente) {
+                $('#acumulacion_PagoPuntos').removeClass('hidden');
+                return;
+            }
+
+            if (productos.length === 0) {
+                swal({
+                    title: '¡Atención!',
+                    text: 'Por favor, agregue uno o varios productos',
+                    icon: "info",
+                    button: "Aceptar",
+                    closeOnClickOutside: false
+                });
+            }
+
+            if (numeroTicket.length >= 6 && fechaCompra.length >= 10 && productos.length > 0) {
+                // Todo esta correcto
+                GuardaHistoricoVentas();
+            }
+        });
+
+        function GuardaHistoricoVentas() {
+            $.ajax({
+                url: appBaseUrl + 'api/service/guardahistoricoventas',
+                type: 'GET',
+                data: {
+                    Numero: inputNumeroTicket.val(),
+                    FechaCompra: inputFechaCompra.val(),
+                    Total: totalTicket,
+                    Tarjeta: user.clave
+                },
+                async: true,
+                beforeSend: function () {
+                    $.LoadingOverlay("show", {
+                        background: "rgba(0, 0, 0, 0.5)",
+                        imageColor: "#F40000"
+                    });
+                },
+                success: function (xhr) {
+                    console.log(xhr);
+
+                    var data = JSON.parse(xhr);
+                    var idHistorico = data[0].Column1;
+                    console.log(idHistorico);
+
+                    $.LoadingOverlay("hide");
+
+                    swal({
+                        title: '¡Exito!',
+                        text: 'La compra se registro correctamente',
+                        icon: "success",
+                        button: "Aceptar",
+                        closeOnClickOutside: false,
+                        type: "Success"
+                    }).then(function () {
+                        GuardaHistoricoVentasProducto(idHistorico);
+                    });
+                },
+                error: function (xhr) {
+                    console.log(xhr);
+                    $.LoadingOverlay("hide");
+                }
+            });
+        }
+
+        function GuardaHistoricoVentasProducto(id) {
+            productos.forEach(function (row, index) {
+                $.ajax({
+                    url: appBaseUrl + 'api/Service/GuardaHistoricoVentasProducto',
+                    type: 'GET',
+                    data: {
+                        HistoricoId: id,
+                        ClaveProducto: row.sku,
+                        Cantidad: row.cantidad,
+                        Precio: row.precio
+                    },
+                    async: false,
+                    beforeSend: function () {
+                        $.LoadingOverlay("show", {
+                            background: "rgba(0, 0, 0, 0.5)",
+                            imageColor: "#F40000"
+                        });
+                    },
+                    success: function (xhr) {
+                        console.log(xhr);
+                        $.LoadingOverlay("hide");
+                    },
+                    error: function (xhr) {
+                        console.log(xhr);
+                        $.LoadingOverlay("hide");
+                    }
+                });
+            });
+            productos = [];
+            swal({
+                title: '¡Exito!',
+                text: 'Productos registrados correctamente',
+                icon: "success",
+                button: "Aceptar",
+                closeOnClickOutside: false,
+                type: "Success"
+            }).then(function () {
+                var pagoPuntos = parseInt(inputPagoPunto.val());
+                if (pagoPuntos <= saldoCliente) {
+                    GuardaHistoricoVentasFormaPago(idHistorico, pagoPuntos)
+                } else {
+                    inputNumeroTicket.val("");
+                    inputFechaCompra.val("");
+                    inputPagoPunto.val("");
+                    cargarProductos();
+                }
+            });
+        }
+
+        function GuardaHistoricoVentasFormaPago(id, puntos) {
+            $.ajax({
+                url: appBaseUrl + 'api/Service/GuardaHistoricoVentasFormaPago',
+                type: 'GET',
+                data: {
+                    HistoricoId: id,
+                    Puntos: puntos
+                },
+                async: true,
+                beforeSend: function () {
+                    $.LoadingOverlay("show", {
+                        background: "rgba(0, 0, 0, 0.5)",
+                        imageColor: "#F40000"
+                    });
+                },
+                success: function (xhr) {
+                    console.log(xhr);
+                    $.LoadingOverlay("hide");
+
+                    swal({
+                        title: '¡Exito!',
+                        text: "La forma de pago en puntos se aplico correctamente",
+                        icon: "success",
+                        button: "Aceptar",
+                        closeOnClickOutside: false
+                    });
+
+                    inputNumeroTicket.val("");
+                    inputFechaCompra.val("");
+                    inputPagoPunto.val("");
+                    cargarProductos();
+                },
+                error: function (xhr) {
+                    console.log(xhr);
+                    $.LoadingOverlay("hide");
+                }
+            });
+        }
+
+        ObtenerSaldoCliente();
+        function ObtenerSaldoCliente() {
+            $.ajax({
+                url: appBaseUrl + 'api/Service/ObtenerSaldoCliente',
+                type: 'GET',
+                data: {
+                    Id: user.id,
+                },
+                async: true,
+                beforeSend: function () {
+                    $.LoadingOverlay("show", {
+                        background: "rgba(0, 0, 0, 0.5)",
+                        imageColor: "#F40000"
+                    });
+                },
+                success: function (xhr) {
+                    var data = JSON.parse(xhr);
+                    saldoCliente = data[0].saldo_actual;
+                    if (saldoCliente <= 0) {
+                        inputPagoPunto.attr('readonly', true);
+                    }
+                    inputPagoPunto.attr('max', saldoCliente);
+                    $.LoadingOverlay("hide");
+                },
+                error: function (xhr) {
+                    console.log(xhr);
+                    $.LoadingOverlay("hide");
+                }
+            });
+        }
+
+    </script>
+}
+
+
