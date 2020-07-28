@@ -73,6 +73,9 @@
                     </table>
                 </div>
             </div>
+            <div class="modal-footer text-right">
+                <button type="button" class="btn btn-success" data-dismiss="modal" aria-label="Close"><i class="far fa-check-square"></i> Agregar</button>
+            </div>
         </div>
     </div>
 </div>
@@ -233,17 +236,6 @@
                         },
                         counter: 1
                     },
-                    //{
-                    //    text: '<i class="far fa-edit"></i> Editar',
-                    //    className: 'btn btn-info',
-                    //    action: function (e, dt, node, config) {
-                    //        var count = table.rows({ selected: true }).count();
-                    //        if (count > 0) {
-                    //            var row = table.rows({ selected: true }).data()[0];
-                    //        }
-                    //    },
-                    //    counter: 1
-                    //},
                     {
                         text: '<i class="far fa-trash-alt"></i> Eliminar',
                         className: 'btn btn-danger',
@@ -368,7 +360,7 @@
                     });
                 },
                 success: function (xhr) {
-                    console.log(xhr);
+                    console.log("Historico venta: ", xhr);
 
                     var data = JSON.parse(xhr);
                     var idHistorico = data[0].Column1;
@@ -376,16 +368,7 @@
 
                     $.LoadingOverlay("hide");
 
-                    swal({
-                        title: '¡Exito!',
-                        text: 'La compra se registro correctamente',
-                        icon: "success",
-                        button: "Aceptar",
-                        closeOnClickOutside: false,
-                        type: "Success"
-                    }).then(function () {
-                        GuardaHistoricoVentasProducto(idHistorico);
-                    });
+                    GuardaHistoricoVentasProducto(idHistorico);
                 },
                 error: function (xhr) {
                     console.log(xhr);
@@ -413,7 +396,7 @@
                         });
                     },
                     success: function (xhr) {
-                        console.log(xhr);
+                        console.log("Historico ventas producto: ", xhr);
                         $.LoadingOverlay("hide");
                     },
                     error: function (xhr) {
@@ -422,25 +405,26 @@
                     }
                 });
             });
+
             productos = [];
-            swal({
-                title: '¡Exito!',
-                text: 'Productos registrados correctamente',
-                icon: "success",
-                button: "Aceptar",
-                closeOnClickOutside: false,
-                type: "Success"
-            }).then(function () {
-                var pagoPuntos = parseInt(inputPagoPunto.val());
-                if (pagoPuntos <= saldoCliente) {
-                    GuardaHistoricoVentasFormaPago(idHistorico, pagoPuntos)
-                } else {
-                    inputNumeroTicket.val("");
-                    inputFechaCompra.val("");
-                    inputPagoPunto.val("");
-                    cargarProductos();
-                }
-            });
+
+            var pagoPuntos = parseInt(inputPagoPunto.val());
+            if (pagoPuntos <= saldoCliente) {
+                GuardaHistoricoVentasFormaPago(id, pagoPuntos)
+            } else {
+                CalcularPuntosMecanica(id);
+            }
+
+            //swal({
+            //    title: '¡Exito!',
+            //    text: 'Productos registrados correctamente',
+            //    icon: "success",
+            //    button: "Aceptar",
+            //    closeOnClickOutside: false,
+            //    type: "Success"
+            //}).then(function () {
+            //    var pagoPuntos = parseInt(inputPagoPunto.val());
+            //});
         }
 
         function GuardaHistoricoVentasFormaPago(id, puntos) {
@@ -459,12 +443,38 @@
                     });
                 },
                 success: function (xhr) {
+                    console.log("Pago con puntos: ", xhr);
+                    $.LoadingOverlay("hide");
+
+                    CalcularPuntosMecanica(id);
+                },
+                error: function (xhr) {
                     console.log(xhr);
+                    $.LoadingOverlay("hide");
+                }
+            });
+        }
+
+        function CalcularPuntosMecanica(id) {
+            $.ajax({
+                url: appBaseUrl + 'api/Service/CalculoPuntosMecanica',
+                type: 'GET',
+                data: {
+                    HistoricoId: id
+                },
+                beforeSend: function () {
+                    $.LoadingOverlay("show", {
+                        background: "rgba(0, 0, 0, 0.5)",
+                        imageColor: "#F40000"
+                    });
+                },
+                success: function (xhr) {
+                    console.log("Puntos Mecanica: ", xhr);
                     $.LoadingOverlay("hide");
 
                     swal({
                         title: '¡Exito!',
-                        text: "La forma de pago en puntos se aplico correctamente",
+                        text: "La acumulación se realizo correctamente.",
                         icon: "success",
                         button: "Aceptar",
                         closeOnClickOutside: false

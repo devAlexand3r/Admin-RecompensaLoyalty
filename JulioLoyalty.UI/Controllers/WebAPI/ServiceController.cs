@@ -297,5 +297,20 @@ namespace JulioLoyalty.UI.Controllers.WebAPI
             }
         }
 
+        [HttpGet]
+        public string CalculoPuntosMecanica(decimal HistoricoId)
+        {
+            using (DbContextJulio db = new DbContextJulio())
+            {
+                var aspnetusers_id = User.Identity.GetUserId();
+                Dictionary<string, object> parameters = new Dictionary<string, object>
+                {
+                    { "@histocico_ventas_id", HistoricoId  }
+                };
+                DataSet setTables = db.GetDataSet("[dbo].[usp_calculo_puntos_mecanica]", CommandType.StoredProcedure, parameters);
+                return JsonConvert.SerializeObject(setTables.Tables[0]);
+            }
+        }
+
     }
 }
