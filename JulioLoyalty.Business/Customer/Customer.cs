@@ -11,6 +11,8 @@ using System.Data;
 using JulioLoyalty.Entities.MailChimp;
 using System.Configuration;
 using Newtonsoft.Json;
+using System.Data.Entity;
+using System.Threading.Tasks;
 
 namespace JulioLoyalty.Business.Customer
 {
@@ -954,6 +956,28 @@ namespace JulioLoyalty.Business.Customer
             catch (Exception ex)
             {
                 return false;
+            }
+        }
+
+        public async Task<ResultJson> ThemeAsync(string theme)
+        {
+            try
+            {
+                using (var db = new DbContextJulio())
+                {
+                    var pais = await db.pais.FirstOrDefaultAsync();
+                    pais.theme = theme;
+                    db.Entry(pais).State = EntityState.Modified;
+                    await db.SaveChangesAsync();
+                    result.jsonObject = theme;
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                result.Success = false;
+                result.Message = ex.Message;
+                return result;
             }
         }
     }

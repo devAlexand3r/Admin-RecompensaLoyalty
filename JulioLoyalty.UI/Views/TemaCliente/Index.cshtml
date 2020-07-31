@@ -1,0 +1,108 @@
+﻿@model JulioLoyalty.Entities.Catalogo.TemaView
+@{
+    ViewBag.Title = "Index";
+}
+@section styles{
+    @Styles.Render("~/Content/bootstrapSelect/bootstrap-select.min.css")
+    @Styles.Render("~/Content/sweetalert2.css")
+    @Styles.Render("~/Content/plugins/jquery-loading/css/jquery.loading.css")
+}
+
+@using (Ajax.BeginForm("ThemeUpdate", "TemaCliente", null,
+       new AjaxOptions
+       {
+           HttpMethod = "Post",
+           OnBegin = "onBeginSubmit",
+           OnComplete = "onCompleteSubmit",
+           OnFailure = "onFailureResult",
+           OnSuccess = "onSuccessResult",
+           UpdateTargetId = "AjaxForm",
+           InsertionMode = InsertionMode.InsertAfter
+       },
+       new { id = "AjaxForm", @class = "needs-validation", @novalidate = "" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-6">
+            @Html.DropDownListFor(m => m.theme, ViewBag.option as IEnumerable<SelectListItem>, new { @class = "form-control" })
+            @*<select class="form-control" id="theme" name="theme" >
+                    <option value="theme-cafe"> Cafe </option>
+                    <option value="theme-gris">Gris</option>
+                    <option value="theme-dorado"> Dorado </option>
+                    <option value="theme-rojo">Rojo</option>
+                    <option value="theme-negro"> Negro </option>
+                    <option value="theme-rosita">Rosita</option>
+                </select>*@
+        </div>
+        <div class="col-3 form-inline">
+            <div class="form-group">
+                <button class="btn btn-primary " type="submit" title="Guardar">
+                    <i class="fas fa-save"></i> Guardar tema
+                </button>
+            </div>
+        </div>
+
+    </div>
+}
+
+@section scripts{
+
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    <script src="~/Content/plugins/jquery-loading/js/jquery.loading.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <!-- AL COMENZAR EL SUBMIT -->
+    <script>
+        var onBeginSubmit = function () {
+            // Mostramos el Ajax Loader
+            $('body').loading({ message: 'Working...', zIndex: 9999 });
+        };
+    </script>
+
+    <!-- AL FINALIZAR EL SUBMIT -->
+    <script>
+        var onCompleteSubmit = function () {
+
+        };
+    </script>
+
+    <!-- SE EJECUTA SI TODO FUE BIEN -->
+    <script>
+        var onSuccessResult = function (data, status, xhr) {
+            swal({
+                title: "Atención",
+                text: "Actualización de correcta",
+                icon: "success",
+                button: "Aceptar",
+                allowOutsideClick: false
+            });
+
+            //// Escondemos el Ajax Loader
+            $('body').loading('stop');
+
+            //// Mostramos un mensaje de éxito.
+            //$("#ExitoAlert").show("slow").delay(2000).hide("slow");
+        };
+
+
+    </script>
+
+    <!-- SE EJECUTA SI SE PRODUJO UN ERROR -->
+    <script>
+        var onFailureResult = function (data) {
+            //// Mostramos un mensaje de error.
+            //$("#ErrorAlert").show("slow").delay(2000).hide("slow");
+            swal({
+                title: "Atención",
+                text: data.Message,
+                icon: "error",
+                button: "Aceptar",
+                allowOutsideClick: false
+            });
+        };
+    </script>
+
+
+
+}

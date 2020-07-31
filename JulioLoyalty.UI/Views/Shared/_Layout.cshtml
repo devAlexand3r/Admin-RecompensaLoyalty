@@ -13,14 +13,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")   
+    @Scripts.Render("~/bundles/modernizr")
     <script type="text/javascript">
         @{
             string appBaseUrl = string.Format("var appBaseUrl = '{0}://{1}{2}';", Request.Url.Scheme, Request.Url.Authority, Url.Content("~"));
             @Html.Raw(appBaseUrl)
         }
     </script>
-
+    @RenderSection("styles", required: false)
 </head>
 <body>
     <div id="header" class="container-fluid px-0">
