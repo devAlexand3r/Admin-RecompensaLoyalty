@@ -448,9 +448,11 @@
     <Compile Include="Controllers\CampaignController.cs" />
     <Compile Include="Controllers\ConfigurationController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
+    <Compile Include="Controllers\EditorHTMLController.cs" />
     <Compile Include="Controllers\LlamadaController.cs" />
     <Compile Include="Controllers\MecanicaController.cs" />
     <Compile Include="Controllers\ReportController.cs" />
+    <Compile Include="Controllers\TemaClienteController.cs" />
     <Compile Include="Controllers\WebAPI\CustomerController.cs" />
     <Compile Include="Controllers\WebAPI\DireccionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -1804,6 +1806,9 @@
     <Content Include="Views\Report\Activation.cshtml" />
     <Content Include="Views\Mecanica\Index.cshtml" />
     <Content Include="Views\Acumulacion\Index.cshtml" />
+    <Content Include="Views\EditorHTML\Index.cshtml" />
+    <Content Include="Views\EditorHTML\ViewHtml.cshtml" />
+    <Content Include="Views\TemaCliente\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

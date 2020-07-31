@@ -19,5 +19,6 @@ namespace JulioLoyalty.Business.Customer
         ResultJson UpdateStutus(RequestComments comm);
         decimal ObtieneStatusPartipanteId(RequestCustomer customer);
         bool ActualizaStatusParticipante(RequestCustomer customer, decimal status_participante_id);
+        Task<ResultJson> ThemeAsync(string theme);
     }
 }

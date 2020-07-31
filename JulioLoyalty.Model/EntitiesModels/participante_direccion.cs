@@ -55,6 +55,12 @@ namespace JulioLoyalty.Model.EntitiesModels
         [StringLength(256)]
         public string municipio { get; set; }
 
+        [StringLength(100)]
+        public string departamento { get; set; }
+
+        [StringLength(100)]
+        public string barrio { get; set; }
+
         public virtual participante participante { get; set; }
 
         public virtual status status { get; set; }

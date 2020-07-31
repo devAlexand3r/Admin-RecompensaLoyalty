@@ -70,6 +70,7 @@
     <Compile Include="csMailing.cs" />
     <Compile Include="Customer\Customer.cs" />
     <Compile Include="Customer\IRepositoryCustomer.cs" />
+    <Compile Include="EditorHTML\EditorHTML.cs" />
     <Compile Include="EmailService\MailChimp\CampaignSettings.cs" />
     <Compile Include="EmailService\Credentials.cs" />
     <Compile Include="EmailService\MailChimp\csMailChimp.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Funciones\validaCorreo.cs" />
     <Compile Include="Campania\IRepositoryCampania.cs" />
     <Compile Include="Funciones\validaTelCel.cs" />
+    <Compile Include="EditorHTML\IEditorHTML.cs" />
     <Compile Include="Llamada\IRepositoryLlamada.cs" />
     <Compile Include="Llamada\Llamada.cs" />
     <Compile Include="MCatalogos\ConsultaCatalagos.cs" />

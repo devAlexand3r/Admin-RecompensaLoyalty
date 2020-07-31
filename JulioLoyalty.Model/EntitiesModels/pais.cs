@@ -123,6 +123,15 @@ namespace JulioLoyalty.Model.EntitiesModels
 
         public string banner_carousel { get; set; }
 
+        [StringLength(255)]
+        public string theme { get; set; }
+
+        public string Aviso_de_privacidad { get; set; }
+        public string Terminos_y_condiciones { get; set; }
+        public string Que_Es_Recompensas_Loyalty { get; set; }
+        public string Reglamento_del_programa { get; set; }
+        public string Como_canjeo_mis_puntos { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<agente> agente { get; set; }
 

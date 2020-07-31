@@ -1,0 +1,127 @@
+﻿@using JulioLoyalty.Business
+@{
+    ViewBag.Title = "Editor HTML";
+    ResultJson result = new ResultJson();
+    if (Session["Result"] != null)
+    {
+        result = Session["Result"] as ResultJson;
+    }
+}
+@section styles{
+    @Styles.Render("~/Content/bootstrapSelect/bootstrap-select.min.css")
+    <link href="~/Content/sweetalert2.css" rel="stylesheet" />
+    <link href="~/Content/plugins/jquery-loading/css/jquery.loading.css" rel="stylesheet" />
+}
+@using (Html.BeginForm("SaveHtml", "EditorHTML", FormMethod.Post, null))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-6">
+            <select class="form-control" id="htmlSelect" name="htmlSelect" data-live-search="true" data-size="7" data-actions-box="true">
+                <option value="@htmlPais.Aviso_de_privacidad">Aviso de privacidad</option>
+                <option value="@htmlPais.Terminos_y_condiciones">Terminos y condiciones</option>
+                <option value="@htmlPais.comofunciona_QUE_ES_RECOMPENSAS_LOYALTY">Que es recompensas loyalty</option>
+                <option value="@htmlPais.comofunciona_REGLAMENTO_DEL_PROGRAMA">Reglamento del programa</option>
+                <option value="@htmlPais.comofunciona_COMO_CANJEO_MIS_PUNTOS">Como canjeo mis puntos</option>
+            </select>
+        </div>
+        <div class="col-3 form-inline">
+            <div class="form-group">
+
+                <a class="btn btn-info " title="Editar HTML" onclick="GetHtml()"><i class="fas fa-edit"></i> Editar HTML</a>
+                &nbsp;
+                <a class="btn btn-warning " title="Visualizar" disabled onclick="Visualizar()"><i class="fas fa-share-square"></i> Visualizar HTML</a>
+                &nbsp;
+                <button class="btn btn-primary " type="submit" title="Guardar" disabled onclick="Save()"><i class="fas fa-save"></i> Guardar HTML</button>
+            </div>
+            @*<button></button>*@
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <textarea class="form-control" style="height:90vh" id="htmlText" name="htmlText"></textarea>
+        </div>
+        <div class="col-6">
+            <iframe src="@Url.Action("ViewHtml", "EditorHTML")" name="iframe" id="iframe" class="form-control" style="height:90vh"></iframe>
+
+        </div>
+    </div>
+}
+
+
+
+@section scripts{
+    @Scripts.Render("~/bundles/bootstrapSelect")
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    <script src="~/Content/plugins/jquery-loading/js/jquery.loading.js"></script>
+    <script>
+        function GetHtml() {
+            $('.btn').prop('disabled', false);
+             $.ajax({
+                url: '@Url.Action( "getHtml", "EditorHTML")',
+                type: 'GET',
+                data: {
+                    html: $('#htmlSelect').val()
+                 }, beforeSend: function () {
+                    $('body').loading({ message: 'Working...', zIndex: 9999 });
+                 }
+             }).done(function (result, textStatus, xhr) {
+                 $('#htmlText').html(result);
+                 $('#iframe').html(result)
+                 $('body').loading('stop');
+
+                //console.log(result);
+            }).fail(function (data, textStatus, xhr) {
+                console.log(data, textStatus, xhr);
+                $('body').loading('stop');
+
+            });
+        }
+
+        function Visualizar() {
+            document.getElementById("iframe").srcdoc = $('#htmlText').val()
+        }
+
+        function Save() {
+            $('body').loading({ message: 'Working...', zIndex: 9999 });
+
+        }
+    </script>
+
+    @if (Session["Result"] != null)
+    {
+        <script>
+        $(function () {
+
+        @if (result.Success) {
+            <text>
+        swal({
+            title: "Atención",
+            text: "Actualización correcta",
+            icon: "success",
+            button: "Aceptar",
+            allowOutsideClick: false
+        });
+            </text>
+        }
+        else
+        {
+            <text>
+        swal({
+            title: "Atención",
+            text: result.Message,
+            icon: "error",
+            button: "Aceptar",
+            allowOutsideClick: false
+        });
+            </text>
+        }
+
+        })
+        </script>
+    }
+
+
+}

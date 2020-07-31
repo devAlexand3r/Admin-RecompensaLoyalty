@@ -79,6 +79,7 @@
   <ItemGroup>
     <Compile Include="Campaign\cCampaignList.cs" />
     <Compile Include="Campaign\cUsuariosLlamadas.cs" />
+    <Compile Include="Catalogo\TemaView.cs" />
     <Compile Include="DatosMailing.cs" />
     <Compile Include="IdentityEntities.cs" />
     <Compile Include="Llamada.cs" />
