@@ -1,0 +1,266 @@
+﻿@model JulioLoyalty.Business.Parameters.RequestPais
+
+@{
+    ViewBag.Title = "Pais";
+}
+
+@section styles{
+    <link href="~/Content/sweetalert2.css" rel="stylesheet" />
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.id)
+    <ul class="nav nav-tabs " id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#pais" role="tab" aria-controls="home" aria-selected="true">Pais</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#smtp" role="tab" aria-controls="profile" aria-selected="false">SMTP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#Extra" role="tab" aria-controls="contact" aria-selected="false">Extra</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="pais" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-horizontal">
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.clave, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.clave, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.clave, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.theme, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.theme, new SelectList(ViewBag.temas, "Value", "Text"), new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.theme, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="form-horizontal">
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.descripcion, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.descripcion, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.descripcion, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.descripcion_larga, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.descripcion_larga, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.descripcion_larga, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="smtp" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.correo_electronico, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.correo_electronico, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.correo_electronico, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.remitente, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.remitente, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.remitente, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.servidor_pop, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.servidor_pop, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.servidor_pop, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.servidor_smtp, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.servidor_smtp, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.servidor_smtp, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.usuario_correo, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.usuario_correo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.usuario_correo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.password_correo, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.password_correo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.password_correo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tab-pane fade" id="Extra" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.prefijo_rms, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.prefijo_rms, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.prefijo_rms, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.usuario_rms, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.usuario_rms, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.usuario_rms, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.password_rms, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.password_rms, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.password_rms, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.valor_punto, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.valor_punto, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.valor_punto, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.url_programa, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.url_programa, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.url_programa, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.clave_carga, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.clave_carga, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.clave_carga, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.url_logo, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.url_logo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.url_logo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.tipo_envio_digital, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.tipo_envio_digital, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.tipo_envio_digital, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.tipo_envio_recarga, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.tipo_envio_recarga, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.tipo_envio_recarga, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.tipo_envio_fisico, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.tipo_envio_fisico, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.tipo_envio_fisico, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.banner_carousel, htmlAttributes: new { @class = "control-label col-md-12" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.banner_carousel, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.banner_carousel, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-6">
+            <input type="submit" value="Save" class="btn btn-primary form-control" />
+        </div>
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    @if (ViewBag.result != null)
+    {
+        if (ViewBag.result == "ok")
+        {
+            <script>
+                swal({
+                    title: "Atención",
+                    text: "Actualización correcta",
+                    icon: "success",
+                    button: "Aceptar",
+                    allowOutsideClick: false
+                });
+            </script>
+        }
+    }
+}

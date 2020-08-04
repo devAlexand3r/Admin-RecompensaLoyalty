@@ -98,6 +98,7 @@ namespace JulioLoyalty.Model
 		public virtual DbSet<rama> rama { get; set; }
 		public virtual DbSet<saldos_participante> saldos_participante { get; set; }
 		public virtual DbSet<sexo> sexo { get; set; }
+		public virtual DbSet<tema> tema { get; set; }
 		public virtual DbSet<status> status { get; set; }
 		public virtual DbSet<status_carga> status_carga { get; set; }
 		public virtual DbSet<status_llamada> status_llamada { get; set; }
@@ -1538,6 +1539,12 @@ namespace JulioLoyalty.Model
 				.WillCascadeOnDelete(false);
 
 			modelBuilder.Entity<pais>()
+				.HasMany(e => e.tema)
+				.WithRequired(e => e.pais)
+				.HasForeignKey(e => e.pais_id)
+				.WillCascadeOnDelete(false);
+
+			modelBuilder.Entity<pais>()
 				.HasMany(e => e.status_carga)
 				.WithRequired(e => e.pais)
 				.HasForeignKey(e => e.pais_id)
@@ -2095,6 +2102,26 @@ namespace JulioLoyalty.Model
 				.HasMany(e => e.participante)
 				.WithOptional(e => e.sexo)
 				.HasForeignKey(e => e.sexo_id);
+			
+			modelBuilder.Entity<tema>()
+				.Property(e => e.id)
+				.HasPrecision(18, 0);
+
+			modelBuilder.Entity<tema>()
+				.Property(e => e.clave)
+				.IsUnicode(false);
+
+			modelBuilder.Entity<tema>()
+				.Property(e => e.descripcion)
+				.IsUnicode(false);
+
+			modelBuilder.Entity<tema>()
+				.Property(e => e.descripcion_larga)
+				.IsUnicode(false);
+
+			modelBuilder.Entity<tema>()
+				.Property(e => e.pais_id)
+				.HasPrecision(18, 0);
 
 			modelBuilder.Entity<status>()
 				.Property(e => e.id)

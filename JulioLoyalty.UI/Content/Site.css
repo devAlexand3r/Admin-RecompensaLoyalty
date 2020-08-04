@@ -1,24 +1,165 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿.theme-cafe .btn-primary {
+    background-color: #C4BDAA;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.theme-gris .btn-primary {
+    background-color: #6f6f6f;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.theme-dorado .btn-primary {
+    background-color: #99774c;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.theme-rojo .btn-primary {
+    background-color: #f40000;
+}
+
+.theme-negro .btn-primary {
+    background-color: #000000;
+}
+
+.theme-rosita .btn-primary {
+    background-color: #ff00cc;
+}
+
+.theme-cafe .btn-primary:hover {
+    background-color: #afa68c;
+}
+
+.theme-gris .btn-primary:hover {
+    background-color: #6c6c6c;
+}
+
+.theme-dorado .btn-primary:hover {
+    background-color: #96744a;
+}
+
+.theme-rojo .btn-primary:hover {
+    background-color: #ef0000;
+}
+
+.theme-negro .btn-primary:hover {
+    background-color: black;
+}
+
+.theme-rosita .btn-primary:hover {
+    background-color: black;
+}
+
+.theme-cafe .btn-primary:not(:disabled):not(.disabled).active, .theme-cafe .btn-primary:not(:disabled):not(.disabled):active, .theme-cafe .btn-primary .show > .dropdown-toggle {
+    color: #fff;
+    background-color: #afa68c;
+    border-color: #afa68c;
+}
+
+.theme-gris .btn-primary:not(:disabled):not(.disabled).active, .theme-gris .btn-primary:not(:disabled):not(.disabled):active, .theme-gris .btn-primary .show > .dropdown-toggle {
+    color: #fff;
+    background-color: #6c6c6c;
+    border-color: #6c6c6c;
+}
+
+.theme-dorado .btn-primary:not(:disabled):not(.disabled).active, .theme-dorado .btn-primary:not(:disabled):not(.disabled):active, .theme-dorado .btn-primary .show > .dropdown-toggle {
+    color: #fff;
+    background-color: #96744a;
+    border-color: #96744a;
+}
+
+.theme-rojo .btn-primary:not(:disabled):not(.disabled).active, .theme-rojo .btn-primary:not(:disabled):not(.disabled):active, .theme-rojo .btn-primary .show > .dropdown-toggle {
+    color: #fff;
+    background-color: #ef0000;
+    border-color: #ef0000;
+}
+
+.theme-negro .btn-primary:not(:disabled):not(.disabled).active, .theme-negro .btn-primary:not(:disabled):not(.disabled):active, .theme-negro .btn-primary .show > .dropdown-toggle {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+.theme-rosita .btn-primary:not(:disabled):not(.disabled).active, .theme-rosita .btn-primary:not(:disabled):not(.disabled):active, .theme-rosita .btn-primary .show > .dropdown-toggle {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+.theme-cafe .btn-secondary {
+    background-color: #666666;
+}
+
+    .theme-cafe .btn-secondary:hover {
+        background-color: #4d4d4d;
+    }
+
+    .theme-cafe .btn-secondary:not(:disabled):not(.disabled).active, .theme-cafe .btn-secondary:not(:disabled):not(.disabled):active, .theme-cafe .btn-secondary .show > .dropdown-toggle {
+        color: #fff;
+        background-color: #4d4d4d;
+        border-color: #4d4d4d;
+    }
+
+.theme-gris .btn-secondary:not(:disabled):not(.disabled).active, .theme-gris .btn-secondary:not(:disabled):not(.disabled):active, .theme-gris .btn-secondary .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-dorado .btn-secondary:not(:disabled):not(.disabled).active, .theme-dorado .btn-secondary:not(:disabled):not(.disabled):active, .theme-dorado .btn-secondary .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-rojo .btn-secondary:not(:disabled):not(.disabled).active, .theme-rojo .btn-secondary:not(:disabled):not(.disabled):active, .theme-rojo .btn-secondary .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-negro .btn-secondary:not(:disabled):not(.disabled).active, .theme-negro .btn-secondary:not(:disabled):not(.disabled):active, .theme-negro .btn-secondary .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-rosita .btn-secondary:not(:disabled):not(.disabled).active, .theme-rosita .btn-secondary:not(:disabled):not(.disabled):active, .theme-rosita .btn-secondary .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-cafe .btn-outline-success {
+    background-color: transparent;
+}
+
+.theme-gris .btn-outline-success {
+    background-color: transparent;
+}
+
+.theme-dorado .btn-outline-success {
+    background-color: transparent;
+}
+
+.theme-rojo .btn-outline-success {
+    background-color: transparent;
+}
+
+.theme-negro .btn-outline-success {
+    background-color: transparent;
+}
+
+.theme-rosita .btn-outline-success {
+    background-color: transparent;
+}
+
+.theme-cafe .btn-outline-success:not(:disabled):not(.disabled).active, .theme-cafe .btn-outline-success:not(:disabled):not(.disabled):active, .theme-cafe .btn-outline-success .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-gris .btn-outline-success:not(:disabled):not(.disabled).active, .theme-gris .btn-outline-success:not(:disabled):not(.disabled):active, .theme-gris .btn-outline-success .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-dorado .btn-outline-success:not(:disabled):not(.disabled).active, .theme-dorado .btn-outline-success:not(:disabled):not(.disabled):active, .theme-dorado .btn-outline-success .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-rojo .btn-outline-success:not(:disabled):not(.disabled).active, .theme-rojo .btn-outline-success:not(:disabled):not(.disabled):active, .theme-rojo .btn-outline-success .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-negro .btn-outline-success:not(:disabled):not(.disabled).active, .theme-negro .btn-outline-success:not(:disabled):not(.disabled):active, .theme-negro .btn-outline-success .show > .dropdown-toggle {
+    color: #fff;
+}
+
+.theme-rosita .btn-outline-success:not(:disabled):not(.disabled).active, .theme-rosita .btn-outline-success:not(:disabled):not(.disabled):active, .theme-rosita .btn-outline-success .show > .dropdown-toggle {
+    color: #fff;
 }

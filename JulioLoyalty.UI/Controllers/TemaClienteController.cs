@@ -25,8 +25,6 @@ namespace JulioLoyalty.UI.Controllers
         }
         public ActionResult Index()
         {
-
-            
             ViewBag.option = selectListItems;
             return View();
         }
