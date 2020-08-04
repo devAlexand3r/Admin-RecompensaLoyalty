@@ -1809,6 +1809,7 @@
     <Content Include="Views\EditorHTML\Index.cshtml" />
     <Content Include="Views\EditorHTML\ViewHtml.cshtml" />
     <Content Include="Views\TemaCliente\Index.cshtml" />
+    <Content Include="Views\Operation\Pais.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

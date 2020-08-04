@@ -29,6 +29,7 @@ namespace JulioLoyalty.Model.EntitiesModels
             proveedor_premios = new HashSet<proveedor_premios>();
             rama = new HashSet<rama>();
             sexo = new HashSet<sexo>();
+            tema = new HashSet<tema>();
             status_carga = new HashSet<status_carga>();
             status_llamada = new HashSet<status_llamada>();
             status_tarjeta = new HashSet<status_tarjeta>();
@@ -185,6 +186,8 @@ namespace JulioLoyalty.Model.EntitiesModels
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<sexo> sexo { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tema> tema { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<status_carga> status_carga { get; set; }

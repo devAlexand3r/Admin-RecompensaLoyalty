@@ -66,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Campania\Campania.cs" />
+    <Compile Include="Configuracion\Configuracion.cs" />
+    <Compile Include="Configuracion\IConfiguracion.cs" />
     <Compile Include="csEnvioMail.cs" />
     <Compile Include="csMailing.cs" />
     <Compile Include="Customer\Customer.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Campania\IRepositoryCampania.cs" />
     <Compile Include="Funciones\validaTelCel.cs" />
     <Compile Include="EditorHTML\IEditorHTML.cs" />
+    <Compile Include="Helper\RegexUtilities.cs" />
     <Compile Include="Llamada\IRepositoryLlamada.cs" />
     <Compile Include="Llamada\Llamada.cs" />
     <Compile Include="MCatalogos\ConsultaCatalagos.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Parameters\RequestActiva.cs" />
     <Compile Include="Parameters\RequestCustomer.cs" />
     <Compile Include="Parameters\RequestGeneraLlamada.cs" />
+    <Compile Include="Parameters\RequestPais.cs" />
     <Compile Include="Parameters\RequestRepOtUnif.cs" />
     <Compile Include="Parameters\RequestRol.cs" />
     <Compile Include="Parameters\RequestComments.cs" />

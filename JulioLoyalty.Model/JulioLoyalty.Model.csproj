@@ -137,6 +137,7 @@
     <Compile Include="EntitiesModels\rama.cs" />
     <Compile Include="EntitiesModels\saldos_participante.cs" />
     <Compile Include="EntitiesModels\sepomex.cs" />
+    <Compile Include="EntitiesModels\tema.cs" />
     <Compile Include="EntitiesModels\sexo.cs" />
     <Compile Include="EntitiesModels\status.cs" />
     <Compile Include="EntitiesModels\status_carga.cs" />

@@ -1,0 +1,144 @@
+DateTime : 03/08/2020 10:53:58 a. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596470037727
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 12:05:03 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596474302167
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 12:09:33 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596474573602
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 01:05:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596477913704
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 02:09:35 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596481775076
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 04:57:12 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596491832591
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 04:58:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596491895546
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 05:20:46 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596493245543
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 05:41:47 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596494506571
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 05:44:02 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596494641585
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 05:46:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596494805664
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 03/08/2020 08:15:14 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596503713596
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
