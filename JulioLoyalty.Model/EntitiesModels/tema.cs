@@ -12,7 +12,6 @@ namespace JulioLoyalty.Model.EntitiesModels
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public tema()
         {
-            participante = new HashSet<participante>();
         }
 
         [Column(TypeName = "numeric")]
@@ -48,7 +47,5 @@ namespace JulioLoyalty.Model.EntitiesModels
 
         public virtual pais pais { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<participante> participante { get; set; }
     }
 }
