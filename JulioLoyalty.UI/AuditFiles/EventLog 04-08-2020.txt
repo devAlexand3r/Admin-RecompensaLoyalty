@@ -58,3 +58,51 @@ UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, 
 Key      : parameter
 Value    : "?"
 --------------------------------*End*------------------------------------------
+DateTime : 04/08/2020 01:19:15 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596565155093
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 04/08/2020 01:19:16 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596565155405
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 04/08/2020 04:49:56 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596577796248
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
+DateTime : 04/08/2020 07:11:45 p. m.
+
+UserId   : 2e89e3c5-20ff-4915-996b-59ecf643fc0b
+UserName : desarrollo
+Page Url : /api/Customer/Find?parameter=%3F&_=1596586305004
+Host IP  : ::1
+Browser  : Chrome
+Details  : Browser: Chrome, Type: Chrome84, Version: 84.0, MVersion: 84
+UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+Key      : parameter
+Value    : "?"
+--------------------------------*End*------------------------------------------
