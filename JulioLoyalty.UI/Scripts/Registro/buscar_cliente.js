@@ -11,7 +11,7 @@ var principal = {
         var parametro = txt === null ? "?" : txt;
         if (parametro === "?") {
             swal({
-                title: 'Bienvenido a Recompensas Loyalty',
+                title: 'Bienvenido a Mis Recompensas ',
                 text: '',
                 icon: "info",
                 button: "Aceptar",
