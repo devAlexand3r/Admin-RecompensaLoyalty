@@ -490,6 +490,7 @@
     <Content Include="Content\images\logoJulioBlack.svg" />
     <Content Include="Content\images\logoJulioLoyalty.svg" />
     <Content Include="Content\images\logoLMS.svg" />
+    <Content Include="Content\images\misRecompensas.png" />
     <Content Include="Content\kendo\2016.1.412\Black\editor.png" />
     <Content Include="Content\kendo\2016.1.412\Black\imagebrowser.png" />
     <Content Include="Content\kendo\2016.1.412\Black\indeterminate.gif" />
